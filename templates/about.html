@@ -1,0 +1,25 @@
+{% include "header.html" %}
+{% block content %}
+    <title>Про мене</title>
+   <div class="about">
+     <h1 class="zagolovok" align="center">{% block title %} Про мене {% endblock %}</h1>
+
+       <img src="/static/images/myPhoto.png" class="img-fluid" alt="[ mysyshyn ]" width="300" height="100">
+
+        <p class="p_about_me1">Я - <b>Мисишин Сергій</b>, студент третього курсу університету <b>ім. В.Стефаника</b>.</p>
+        <p class="p_about_me">Навчаюся за спеціальністю "Інженерія прогрманого забезпечення".<br>
+        Попри навчання в унверситеті я також займаюся Android-розробкою вже більше п'яти років. </p>
+
+       <p><b>Ось чим я володію:</b></p>
+
+       {% for item in skills %}
+            <span class="skills">{{item}}</span>
+       {% endfor %}
+
+       <br><br><b><p class="p_about_me"> На даному сайті Ви зможете переглянути мої роботи, а також познайомитись та зв'язатись зі мною!  </p></b>
+   </div>
+ {% endblock %}
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+{% include "footer.html" %}

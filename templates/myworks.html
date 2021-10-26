@@ -1,0 +1,26 @@
+{% include "header.html" %}
+{% block content %}
+    <title>Мої роботи</title>
+    <div class="myworks">
+        <h1 class="zagolovok" align="center">{% block title %} Мої роботи {% endblock %}</h1>
+        <hr>
+
+
+        {% for item in projectsData %}
+            <div class="project-item">
+                <div class="image-item"><img src="{{item.imageURL}}" class="d-block w-100" alt="Data2" width="610" height="365"></div>
+                <div class="data-item">
+                    <div class="title-item">● {{item.name}}</div>
+                    <div class="androidV-item"><span class="skills">{{item.android}}</span></div>
+                    <div class="description-item">{{item.description}} </div>
+                </div>
+            </div>
+            <hr>
+        {% endfor %}
+
+
+
+    </div>
+{% endblock %}
+
+{% include "footer.html" %}

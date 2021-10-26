@@ -1,0 +1,208 @@
+body {
+    height: 100%;
+    background: url('../images/fon2.jpg') no-repeat fixed center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+     -o-background-size: cover;
+    background-size: cover;
+}
+
+#navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 98;
+}
+
+#navbarSupportedContent{
+    margin-left: 100px;
+}
+
+header{
+    margin-bottom: 75px;
+}
+
+footer{
+    padding: 5px 25px;
+    font-size: 12px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px 25px 0px 0px;
+    color: aliceblue;
+    width: 100%;
+}
+
+.footer-span-left{
+    color: grey;
+}
+
+#sliderFade{
+    width: 1000px;
+    height: 600px;
+}
+
+.footer-span-right{
+    color: whitesmoke;
+}
+
+.img-fluid{
+    float: left;
+}
+
+.zagolovok{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.about{
+    margin: 15px auto;
+    padding: 5px;
+    width: 60%;
+    min-height: 500px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+.home{
+    margin: 15px auto;
+    padding: 5px;
+    width: 90%;
+    min-height: 500px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+.p_about_me1{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.titleDiv{
+    width: 100%;
+}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.skills{
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 3px;
+    margin-left:3px;
+    margin-right: 3px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#location{
+    margin: 10px auto 25px;
+}
+
+.home_zagolovok{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.foto1{
+    position: absolute;
+    top: 150px;
+    right: 35px;
+    z-index: 2;
+}
+
+.foto2{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 90px;
+    z-index: 3;
+}
+
+.spanWeight1{
+    font-size: 75px;
+    color: darkred;
+    font-weight: bold;
+}
+
+.spanWeight2{
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: -25px;
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+
+.mainContentText{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 300px;
+    z-index: 5;
+}
+
+.myworks{
+    margin: 15px auto;
+    padding: 5px;
+    width: 90%;
+    min-height: 500px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+.project-item{
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.image-item{
+    vertical-align: top;
+    display: inline-block;
+    width: 40%;
+    height: 360px;
+}
+
+.data-item{
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 10px;
+    width: 50%;
+    height: 360px;
+}
+
+.title-item{
+    vertical-align: top;
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 70%;
+    height: 100px;
+}
+
+.androidV-item{
+    text-align: right;
+    vertical-align: top;
+    display: inline-block;
+    width: 25%;
+    height: 100px;
+    font-size: 24px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.description-item{
+    vertical-align: top;
+    margin-top: 0px;
+    width: 100%;
+    height: 260px;
+    font-size: 14px;
+    padding: 5px 5px 5px 40px;
+}
