@@ -2,17 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>my form</title>
+    <title>Форма</title>
 </head>
 <body>
- щлшжвалпрапо
-робльприбо
-иотбь
-тьбю
-тю
-тьбю
-ть
-бю
+
+<h1>Моя форма</h1>
+
+<form method="post" action="{{ url_for('form') }}">
+    {{form.csrf_token }}
+    {{form.username.label }}
+    {{form.username }}
+    {{form.password.label }}
+    {{form.password }}
+    <input type="submit" value="Submit">
+</form>
 
 </body>
 </html>
