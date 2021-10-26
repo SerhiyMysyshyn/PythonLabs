@@ -15,6 +15,23 @@ body {
     z-index: 98;
 }
 
+#input-submit{
+    width: 100px;
+    border-radius: 25px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.dataForm{
+    color: white;
+}
+
+.submit{
+    padding: 10px;
+    color: green;
+    border-radius: 2px;
+}
+
 #navbarSupportedContent{
     margin-left: 100px;
 }
@@ -50,6 +67,7 @@ footer{
 }
 
 .zagolovok{
+    color: whitesmoke;
     margin-top: 5px;
     margin-bottom: 15px;
     font-weight: bold;
@@ -60,6 +78,17 @@ footer{
     padding: 5px;
     width: 60%;
     min-height: 500px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+.myForm{
+    text-align: center;
+    margin: 15px auto;
+    padding: 25px;
+    width: 30%;
+    min-height: 100px;
     background-color: rgba(128, 128, 128, 0.57);
     border-radius: 25px;
     color: whitesmoke;

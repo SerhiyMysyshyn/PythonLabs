@@ -1,21 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Форма</title>
-</head>
-<body>
+{% include "header.html" %}
+{% block content %}
 
-<h1>Моя форма</h1>
+<h1 class="zagolovok" align="center">{% block title %} Моя форма {% endblock %}</h1>
 
-<form method="post" action="{{ url_for('form') }}">
-    {{form.csrf_token }}
-    {{form.username.label }}
-    {{form.username }}
-    {{form.password.label }}
-    {{form.password }}
-    <input type="submit" value="Submit">
-</form>
+<div class="myForm">
+    <form class="dataForm" method="post" action="{{ url_for('form') }}">
+        {{form.csrf_token }}
+        {{form.username.label }}
+        {{form.username }}
 
-</body>
-</html>
+        <ul>
+        {% for error in form.username.errors %}
+            <li style="color: red">{{ error }}</li>
+        {% endfor %}
+        </ul>
+
+        {{form.password.label }}
+        {{form.password }}
+
+        {% for error in form.password.errors %}
+            <li style="color: red">{{ error }}</li>
+        {% endfor %}
+
+        <br><br><input id="input-submit" type="submit" value="Submit" >
+    </form>
+</div>
+
+{% endblock %}

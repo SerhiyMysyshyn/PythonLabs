@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField
+from wtforms.validators import InputRequired, Length, AnyOf
 
 from datetime import datetime
 import os
@@ -8,11 +9,11 @@ import sys
 import platform
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'SerhiyMysyshyn'
+app.config['SECRET_KEY'] = 'abc123'
 
 class LoginForm(FlaskForm):
-    username = StringField('username')
-    password = PasswordField('password')
+    username = StringField('username', validators=[InputRequired('A username is required!'), Length(min=5, max=10, message="Username must contain 5-10 symbols")])
+    password = PasswordField('password', validators=[InputRequired('Password is required!'), AnyOf(values=['password', 'secret'])])
 
 def getFooterData():
     OS_info = os.name + " " + platform.system() + " " + platform.release()
