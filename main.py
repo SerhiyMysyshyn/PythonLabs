@@ -58,7 +58,7 @@ def myworks():
 
 @app.route('/form', methods=['GET', 'POST'])
 def form():
-    form = LoginForm
+    form = LoginForm()
     if form.validate_on_submit():
         return '<h1>The username is {}. The password is {}.'.format(form.username.data, form.password.data)
     return render_template('form.html', form=form)
