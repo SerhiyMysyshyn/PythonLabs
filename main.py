@@ -13,7 +13,7 @@ app.config['SECRET_KEY'] = 'abc123'
 
 class LoginForm(FlaskForm):
     username = StringField('username', validators=[InputRequired('A username is required!'), Length(min=5, max=10, message="Username must contain 5-10 symbols")])
-    password = PasswordField('password', validators=[InputRequired('Password is required!'), AnyOf(values=['password', 'secret'])])
+    password = PasswordField('password', validators=[InputRequired('Password is required!'), AnyOf(values=['password', 'Serhiy'])])
 
 def getFooterData():
     OS_info = os.name + " " + platform.system() + " " + platform.release()

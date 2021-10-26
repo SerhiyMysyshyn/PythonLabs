@@ -1,26 +1,15 @@
+
+{% from "_render_field.html" import render_field %}
 {% include "header.html" %}
 {% block content %}
 
 <h1 class="zagolovok" align="center">{% block title %} Моя форма {% endblock %}</h1>
 
 <div class="myForm">
-    <form class="dataForm" method="post" action="{{ url_for('form') }}">
-        {{form.csrf_token }}
-        {{form.username.label }}
-        {{form.username }}
-
-        <ul>
-        {% for error in form.username.errors %}
-            <li style="color: red">{{ error }}</li>
-        {% endfor %}
-        </ul>
-
-        {{form.password.label }}
-        {{form.password }}
-
-        {% for error in form.password.errors %}
-            <li style="color: red">{{ error }}</li>
-        {% endfor %}
+    <form class="dataForm" method="POST" action="{{ url_for('form') }}">
+        {{ form.csrf_token }}
+        {{ render_field(form.username) }}
+        {{ render_field(form.password) }}
 
         <br><br><input id="input-submit" type="submit" value="Submit" >
     </form>
