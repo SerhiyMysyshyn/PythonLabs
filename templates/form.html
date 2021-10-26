@@ -3,16 +3,30 @@
 {% include "header.html" %}
 {% block content %}
 
+{% for cat, msg in get_flashed_messages(True) %}
+<div class="flash {{cat}}">{{msg}}</div>
+{% endfor %}
+
 <h1 class="zagolovok" align="center">{% block title %} Моя форма {% endblock %}</h1>
 
 <div class="myForm">
     <form class="dataForm" method="POST" action="{{ url_for('form') }}">
         {{ form.csrf_token }}
-        {{ render_field(form.username) }}
-        {{ render_field(form.password) }}
+        <p>&nbsp&nbsp&nbsp {{ render_field(form.username) }}</p>
+        <p>{{ render_field(form.password) }}</p>
 
-        <br><br><input id="input-submit" type="submit" value="Submit" >
+        <hr><input id="input-submit" type="submit" value="Надіслати">
     </form>
 </div>
+
+
+{% if usernameData %}
+    <div id="myForm2">
+        <h3 class="myForm2-H3">Передані дані</h3><hr>
+        <p class="myForm2-p"><b>Логін:</b> {{ usernameData }}</p>
+        <p class="myForm2-p"><b>Пароль:</b> {{ passwordData }}</p>
+    </div>
+{% else %}
+{% endif %}
 
 {% endblock %}

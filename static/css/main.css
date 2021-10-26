@@ -16,8 +16,12 @@ body {
 }
 
 #input-submit{
+    margin-left: auto;
+    margin-right: auto;
+    background: blue;
+    color: white;
     width: 100px;
-    border-radius: 25px;
+    border-radius: 5px;
     padding: 5px;
     font-weight: bold;
 }
@@ -87,10 +91,26 @@ footer{
     text-align: center;
     margin: 15px auto;
     padding: 25px;
-    width: 30%;
+    width: 25%;
     min-height: 100px;
     background-color: rgba(128, 128, 128, 0.57);
     border-radius: 25px;
+    color: whitesmoke;
+}
+.myForm input{
+    width: 75%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+#myForm2{
+    text-align: center;
+    margin: 50px auto 15px;
+    width: 250px;
+    padding: 25px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px;
+    border: 1px solid #21DB56;
     color: whitesmoke;
 }
 
@@ -234,4 +254,26 @@ footer{
     height: 260px;
     font-size: 14px;
     padding: 5px 5px 5px 40px;
+}
+
+.flash{
+    margin-top: -20px;
+    padding: 15px;
+}
+.flash.success{
+    border: 1px solid #21DB56;
+    background: #AEFFC5;
+}
+
+.flash.error{
+    border: 1px solid #FF4343;
+    background: #FF9C9C;
+}
+
+.myForm2-H3{
+    color: black;
+}
+
+.myForm2-p{
+    color: black;
 }

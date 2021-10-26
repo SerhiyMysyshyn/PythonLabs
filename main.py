@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, flash, request
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField
 from wtforms.validators import InputRequired, Length, AnyOf
@@ -9,11 +9,11 @@ import sys
 import platform
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'abc123'
+app.config['SECRET_KEY'] = 'SerhiyMysyshyn'
 
 class LoginForm(FlaskForm):
-    username = StringField('username', validators=[InputRequired('A username is required!'), Length(min=5, max=10, message="Username must contain 5-10 symbols")])
-    password = PasswordField('password', validators=[InputRequired('Password is required!'), AnyOf(values=['password', 'Serhiy'])])
+    username = StringField('Логін', validators=[InputRequired('A username is required!'), Length(min=1, max=25, message="Логін повинен містити не менше 1 символа!")])
+    password = PasswordField('Пароль', validators=[InputRequired('Password is required!'), AnyOf(values=['password', 'Serhiy'])])
 
 def getFooterData():
     OS_info = os.name + " " + platform.system() + " " + platform.release()
@@ -57,11 +57,21 @@ def about():
 def myworks():
     return render_template('myworks.html', data=getFooterData(), projectsData=projectsData)
 
-@app.route('/form', methods=['GET', 'POST'])
+@app.route('/form', methods=['POST', 'GET'])
 def form():
     form = LoginForm()
     if form.validate_on_submit():
-        return '<h1>The username is {}. The password is {}.'.format(form.username.data, form.password.data)
+        if request.method == 'POST':
+            if len(request.form['username']) > 5:
+                flash('Форма надіслана успішно!', category='success')
+                usernameData = form.username.data
+                passwordData = form.password.data
+                return render_template('form.html', form=form, usernameData=usernameData, passwordData=passwordData)
+            else:
+                #return '<h1>The username is {}. The password is {}.'.format(form.username.data, form.password.data)
+                flash('Форма не відправлена! Рекомендація: постарайтесь придумати довший логін!', category='error')
+                return render_template('form.html', form=form)
+
     return render_template('form.html', form=form)
 
 if __name__ == '__main__':
