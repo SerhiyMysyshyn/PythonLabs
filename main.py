@@ -1,8 +1,7 @@
 from flask import Flask, render_template, flash, request
 from flask_wtf import FlaskForm
-from wtforms import StringField, PasswordField
-from wtforms.validators import InputRequired, Length, AnyOf
-
+from wtforms import StringField, PasswordField, SelectField
+from wtforms.validators import InputRequired, Length, AnyOf, EqualTo, Regexp
 from datetime import datetime
 import os
 import sys
@@ -11,9 +10,33 @@ import platform
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'SerhiyMysyshyn'
 
+# Lab 4 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 class LoginForm(FlaskForm):
     username = StringField('Логін', validators=[InputRequired('A username is required!'), Length(min=1, max=25, message="Логін повинен містити не менше 1 символа!")])
     password = PasswordField('Пароль', validators=[InputRequired('Password is required!'), AnyOf(values=['password', 'Serhiy'])])
+
+# Lab 5 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+class RegisterForm(FlaskForm):
+    login = StringField('Логін *', validators=[InputRequired('Login is required')])
+    #   Error-list
+    error_0 = 'Введіть пароль!'
+    error_1 = 'Мінімальна довжина паролю 6 символів!'
+    error_2 = 'Паролі повинні збігатися!'
+    error_3 = 'Номер обов’язковий!'
+    error_4 = 'Довжина числа повинна дорівнювати 7!'
+    error_5 = 'Повинні бути лише цифри!'
+    error_6 = 'Довжина PIN-коду має дорівнювати 4!'
+    error_7 = 'Необхідний PIN-код!'
+    error_8 = 'Не відповідає шаблону: XX (до 2015), або X00 (після 2015)!'
+    error_9 = 'Не відповідає шаблону: (8 символів до 2015), або (6 символів після 2015)!'
+
+    password = PasswordField('Пароль *', validators=[InputRequired(error_0), Length(min=6, message=error_1)])
+    password_r = PasswordField('Підтвердження паролю *', validators=[InputRequired(error_0), Length(min=6, message=error_1), EqualTo('password', message=error_2)])
+    e_number = StringField('Номер *', validators=[InputRequired(error_3), Length(min=7, max=7, message=error_4), Regexp(regex='^[0-9]+$', message=error_5)])
+    e_pin = PasswordField('Пін *', validators=[InputRequired(error_7), Length(min=4, max=4, message=error_6), Regexp(regex='^[0-9]+$', message=error_5)])
+    e_year = SelectField('Рік *', choices=[2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021])
+    d_series = StringField('Серія')
+    d_number = StringField('Номер *')
 
 def getFooterData():
     OS_info = os.name + " " + platform.system() + " " + platform.release()
@@ -58,10 +81,7 @@ def about():
 def myworks():
     return render_template('myworks.html', data=getFooterData(), projectsData=projectsData)
 
-@app.route('/registerForm')
-def registerForm():
-    return render_template('registerForm.html', data=getFooterData())
-
+# LAB 4 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 @app.route('/form', methods=['POST', 'GET'])
 def form():
     form = LoginForm()
@@ -78,6 +98,31 @@ def form():
                 return render_template('form.html', form=form, data=getFooterData())
 
     return render_template('form.html', form=form, data=getFooterData())
+
+# LAB 5 ---------------------------------------------------------------------------------------------------------------------------------------------------------
+@app.route('/registerForm', methods=['GET', 'POST'])
+def registerForm():
+    form = RegisterForm()
+    if form.e_year.data is not None:
+        regex = ''
+        length = 0
+
+        if int(form.e_year.data) < 2015:
+            regex = '^[A-Z]{2}$'
+            length = 8
+        else:
+            regex = '^[A-Z][0-9]{2}$'
+            length = 6
+
+        form.d_series.validators = [Regexp(regex=regex, message=form.error_8)]
+        form.d_number.validators = [InputRequired(form.error_3), Length(min=length, max=length, message=form.error_9)]
+
+    if form.validate_on_submit():
+        from writeDataToFile import FileWriter
+        FileWriter().write_to_file(form)
+        return render_template("resultAfterRegister.html", form=form, data=getFooterData())
+
+    return render_template("registerForm.html", form=form, data=getFooterData())
 
 if __name__ == '__main__':
     app.run(debug=True)

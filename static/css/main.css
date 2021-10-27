@@ -277,3 +277,69 @@ footer{
 .myForm2-p{
     color: black;
 }
+
+.form-register{
+    margin: 25px auto;
+    padding: 25px;
+    width: 40%;
+    min-height: 500px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+.form-register input{
+    width: 90%;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.57);
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+#input-submit-2{
+    margin-left: auto;
+    margin-right: auto;
+    background: blue;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#login{
+    margin-left: 15px;
+}
+
+#password_r{
+    width: 520px;
+}
+
+#e_pin{
+    margin-left: 25px;
+}
+
+#d_series{
+    margin-left: 20px;
+}
+
+#e_year{
+    margin-left: 28px;
+    width: 90%;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.57);
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+.form-result-after-register{
+    margin: 25px auto;
+    padding: 25px;
+    width: 40%;
+    min-height: 500px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px;
+    color: whitesmoke;
+}
