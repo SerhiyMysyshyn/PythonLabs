@@ -18,8 +18,9 @@ class LoginForm(FlaskForm):
 def getFooterData():
     OS_info = os.name + " " + platform.system() + " " + platform.release()
     current_datetime = datetime.now()
+    userAgent = request.headers.get('User-Agent')
     pythonVersion = sys.version
-    return [OS_info, pythonVersion, current_datetime]
+    return [OS_info, pythonVersion, userAgent, current_datetime]
 
 skills = ["Java Core and Pro", "MySQL", "SQL", "Kotlin", "Dagger 2", "OOP", "MVP", "MVVM", "REST-API", "Unit Testing",
           "RXJava", "Retrofit", "Git", "AndroidX", "Room Database", "UI layout / UI style xml", "Android SDK", "Google Maps / OSM API", "HTML / CSS / JS"]
@@ -57,6 +58,10 @@ def about():
 def myworks():
     return render_template('myworks.html', data=getFooterData(), projectsData=projectsData)
 
+@app.route('/registerForm')
+def registerForm():
+    return render_template('registerForm.html', data=getFooterData())
+
 @app.route('/form', methods=['POST', 'GET'])
 def form():
     form = LoginForm()
@@ -66,13 +71,13 @@ def form():
                 flash('Форма надіслана успішно!', category='success')
                 usernameData = form.username.data
                 passwordData = form.password.data
-                return render_template('form.html', form=form, usernameData=usernameData, passwordData=passwordData)
+                return render_template('form.html', form=form, usernameData=usernameData, passwordData=passwordData, data=getFooterData())
             else:
                 #return '<h1>The username is {}. The password is {}.'.format(form.username.data, form.password.data)
                 flash('Форма не відправлена! Рекомендація: постарайтесь придумати довший логін!', category='error')
-                return render_template('form.html', form=form)
+                return render_template('form.html', form=form, data=getFooterData())
 
-    return render_template('form.html', form=form)
+    return render_template('form.html', form=form, data=getFooterData())
 
 if __name__ == '__main__':
     app.run(debug=True)
