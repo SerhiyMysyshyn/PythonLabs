@@ -1,5 +1,5 @@
+{% block footer %}
 <footer>
-
     <div>
         <span class="footer-span-left">Операційна система:</span>
         <span class="footer-span-right">{{data[0]}}</span>
@@ -11,7 +11,13 @@
     </div>
 
     <div>
-        <span class="footer-span-left">Поточний час:</span>
+        <span class="footer-span-left">User Agent:</span>
         <span class="footer-span-right">{{data[2]}}</span>
     </div>
+
+    <div>
+        <span class="footer-span-left">Поточний час:</span>
+        <span class="footer-span-right">{{data[3]}}</span>
+    </div>
 </footer>
+{% endblock %}

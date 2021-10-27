@@ -1,0 +1,38 @@
+{% from "_render_field.html" import render_field %}
+
+{% extends "baseTemplate.html" %}
+
+{%block title%}
+    Реєстрація
+{% endblock %}
+
+{%block content %}
+<div class="form-register">
+    <h2 align="center">Форма реєстрації</h2>
+    <hr>
+    <form method="POST" action="{{ url_for('registerForm') }}">
+        {{ form.csrf_token }}
+
+        <p>{{ render_field(form.login) }}</p>
+        <p>{{ render_field(form.password) }}</p>
+        <p>{{ render_field(form.password_r) }}</p>
+
+        <hr>
+        <h3 align="center"><b><i>Екзаменаційний лист ЗНО магістра</i></b></h3><br>
+
+        <p>{{ render_field(form.e_number) }}</p>
+        <p>{{ render_field(form.e_pin) }}</p>
+        <p>{{ render_field(form.e_year) }}</p>
+
+        <hr>
+        <h3 align="center"><b><i>Документ про освіту</i></b></h3><br>
+
+        <p>{{ render_field(form.d_series) }}</p>
+        <p>{{ render_field(form.d_number) }}</p>
+
+        <hr>
+        <br>
+        <input id="input-submit-2" type="submit" value="Зареєструватись">
+    </form>
+</div>
+{% endblock %}
