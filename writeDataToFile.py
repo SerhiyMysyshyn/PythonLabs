@@ -1,6 +1,6 @@
 import json
 
-from main import RegisterForm
+from app.forms import RegisterForm
 
 class FileWriter:
     def formatJSON(self, form: RegisterForm):
