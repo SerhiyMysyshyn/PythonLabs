@@ -5,8 +5,6 @@ from .forms import LoginForm, RegisterForm
 # from app.models import User, Post
 from app.getAdditionalData import *
 from app.getFunction import getFooterData, write_to_json, validation
-from wtforms.validators import InputRequired, Length, Regexp
-
 
 @app.route('/')
 def home():
