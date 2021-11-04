@@ -37,7 +37,7 @@ body {
 }
 
 #navbarSupportedContent{
-    margin-left: 100px;
+    margin-left: 75px;
 }
 
 header{
@@ -87,9 +87,9 @@ footer{
     color: whitesmoke;
 }
 
-.myForm{
+.login{
     text-align: center;
-    margin: 15px auto;
+    margin: 15% auto;
     padding: 25px;
     width: 20%;
     min-height: 100px;
@@ -97,12 +97,44 @@ footer{
     border-radius: 25px;
     color: whitesmoke;
 }
-.myForm input{
+.login input{
     width: 75%;
     border-radius: 10px;
     border: 1px solid darkblue;
     padding: 5px;
 }
+
+.register input{
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+#register-input-username{
+    margin-left: 37px;
+}
+#register-input-email{
+    margin-left: 22px;
+}
+#register-input-password1{
+    margin-left: 10px;
+}
+#register-input-password2{
+    width: 50%;
+    margin-left: 5px;
+}
+.register{
+    text-align: center;
+    margin: 13% auto;
+    padding: 25px;
+    width: 40%;
+    min-height: 100px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
 #myForm2{
     text-align: center;
     margin: 50px auto 15px;
@@ -179,7 +211,7 @@ footer{
 }
 
 .spanWeight2{
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 10px;
     margin-bottom: -25px;
     font-size: 35px;
@@ -190,7 +222,7 @@ footer{
 .mainContentText{
     position: relative;
     margin-left: 100px;
-    margin-top: 300px;
+    margin-top: 150px;
     z-index: 5;
 }
 
@@ -342,4 +374,58 @@ footer{
     background-color: rgba(128, 128, 128, 0.57);
     border-radius: 25px;
     color: whitesmoke;
+}
+
+#error-404-div-img{
+    display: block;
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    margin: 295px auto;
+}
+
+.user-list-item{
+    width: 40%;
+    margin: 15px auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 45px 25px 25px 45px;
+    border: 1px solid black;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.user-count-item{
+    width: 40%;
+    margin: 5px auto 20px auto;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+#user-list-item-div1{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+    padding: 0px;
+}
+
+#user-list-item-div2{
+    display: inline-block;
+    width: 75%;
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+}
+
+#user-list-item-div3{
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+
+#user-list-item-div4{
+    margin: 0px;
+    padding: 0px;
 }

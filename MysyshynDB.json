@@ -1,26 +1,18 @@
 {
+    "+380502496240": {
+        "password": "24072001",
+        "e_number": "1234567",
+        "e_pin": "2407",
+        "e_year": "2013",
+        "d_series": "AB",
+        "d_number": "12345678"
+    },
     "serhiymysyshyn@gmail.com": {
         "password": "24072001",
-        "e_number": "2233445",
-        "e_pin": "2407",
-        "e_year": "2013",
-        "d_series": "AB",
-        "d_number": "12345678"
-    },
-    "serhii.mysyshyn.19@pnu.edu.ua": {
-        "password": "24072001",
         "e_number": "1234567",
         "e_pin": "2407",
         "e_year": "2013",
         "d_series": "AB",
-        "d_number": "12345678"
-    },
-    "MysyshynSerhiy": {
-        "password": "24072001",
-        "e_number": "1234567",
-        "e_pin": "7777",
-        "e_year": "2014",
-        "d_series": "AT",
         "d_number": "12345678"
     }
 }

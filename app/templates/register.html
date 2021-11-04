@@ -1,0 +1,29 @@
+{% from "_render_field.html" import render_field %}
+
+{% extends "baseTemplate.html" %}
+
+{%block title%}
+    Реєстрація
+{% endblock %}
+
+
+{% block content %}
+
+{% for cat, msg in get_flashed_messages(True) %}
+  <div class="flash {{cat}}">{{msg}}</div>
+{% endfor %}
+
+<div class="register">
+        <h2 align="center">Реєстрація</h2>
+        <hr>
+        <form method="POST">
+            {{ form_reg.csrf_token }}
+            {{ render_field(form_reg.username, id="register-input-username") }}
+            {{ render_field(form_reg.email, id="register-input-email") }}
+            {{ render_field(form_reg.password1, id="register-input-password1") }}
+            {{ render_field(form_reg.password2, id="register-input-password2") }}
+          <hr>
+            {{ render_field(form_reg.submit, id="input-submit-2", value='Зареєструватись') }}
+        </form>
+    </div>
+{% endblock %}

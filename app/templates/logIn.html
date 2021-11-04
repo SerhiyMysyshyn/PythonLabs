@@ -1,0 +1,29 @@
+{% from "_render_field.html" import render_field %}
+
+{% extends "baseTemplate.html" %}
+
+{%block title%}
+    Вхід
+{% endblock %}
+
+{%block content %}
+
+    {% for cat, msg in get_flashed_messages(True) %}
+        <div class="flash {{cat}}">{{msg}}</div>
+    {% endfor %}
+
+    <div class="login">
+        <h2 align="center">Вхід</h2>
+        <hr>
+        <form method="POST">
+            <p>{{ form.csrf_token }}</p>
+            <p>{{ render_field(form.email) }}</p>
+            <p>{{ render_field(form.password) }}</p>
+            <hr>
+            <p>{{ render_field(form.submit, value='Ввійти', id="input-submit-2") }}</p>
+        </form>
+    </div>
+
+
+
+{% endblock %}
