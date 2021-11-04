@@ -29,7 +29,7 @@ class RegisterForm(FlaskForm):
 
     def validate_username(self, field):
         if User.query.filter_by(username=field.data).first():
-            raise ValidationError(error_15)
+            raise ValidationError(error_16)
 
 class LoginForm(FlaskForm):
     email = StringField('Логін', validators=[DataRequired(), Regexp('^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$')])
