@@ -3,11 +3,10 @@
 {% extends "baseTemplate.html" %}
 
 {%block title%}
-    Реєстрація
+    Реєстрація документів
 {% endblock %}
 
 {%block content %}
-
     {% for cat, msg in get_flashed_messages(True) %}
         <div class="flash {{cat}}">{{msg}}</div>
     {% endfor %}
@@ -15,25 +14,25 @@
 <div class="form-register">
     <h2 align="center">Форма реєстрації</h2>
     <hr>
-    <form method="POST" action="{{ url_for('registerForm') }}">
+    <form method="POST" action="{{ url_for('formRegisterDoc') }}">
         {{ form.csrf_token }}
 
-        <p>{{ render_field(form.email, value=email) }}</p>
+        <p>{{ render_field(form.email) }}</p>
         <p>{{ render_field(form.password) }}</p>
         <p>{{ render_field(form.password_r) }}</p>
 
         <hr>
         <h3 align="center"><b><i>Екзаменаційний лист ЗНО магістра</i></b></h3><br>
 
-        <p>{{ render_field(form.e_number, value=e_number) }}</p>
-        <p>{{ render_field(form.e_pin, value=e_pin) }}</p>
-        <p>{{ render_field(form.e_year, value=e_year) }}</p>
+        <p>{{ render_field(form.e_number) }}</p>
+        <p>{{ render_field(form.e_pin) }}</p>
+        <p>{{ render_field(form.e_year) }}</p>
 
         <hr>
         <h3 align="center"><b><i>Документ про освіту</i></b></h3><br>
 
-        <p>{{ render_field(form.d_series, value=d_series) }}</p>
-        <p>{{ render_field(form.d_number, value=d_number) }}</p>
+        <p>{{ render_field(form.d_series) }}</p>
+        <p>{{ render_field(form.d_number) }}</p>
 
         <hr>
         <br>

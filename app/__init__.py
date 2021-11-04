@@ -1,10 +1,11 @@
 from flask import Flask
-#from flask_sqlalchemy import SQLAlchemy
-#from flask_bcrypt import Bcrypt
+from flask_sqlalchemy import SQLAlchemy
+from flask_bcrypt import Bcrypt
 
 app = Flask(__name__)
 app.config.from_object('config')
-#db = SQLAlchemy()
+db = SQLAlchemy(app)
 
-from . import views, forms
+bcrypt = Bcrypt(app)
+from . import views
 
