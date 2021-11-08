@@ -429,3 +429,29 @@ footer{
     margin: 0px;
     padding: 0px;
 }
+
+#remember{
+    width: 15px;
+    height: 15px;
+}
+
+.myAccount{
+    margin: 15px auto;
+    padding: 5px;
+    width: 30%;
+    min-height: 400px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+.my-acc-row-items{
+    min-width: 75px;
+    font-size: 24px;
+    color: black;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 7px 3px;
+}

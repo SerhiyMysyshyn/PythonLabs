@@ -1,0 +1,22 @@
+{% extends "baseTemplate.html" %}
+
+{% block content %}
+    <title>Мій профіль</title>
+
+    {% for cat, msg in get_flashed_messages(True) %}
+        <div class="flash {{cat}}">{{msg}}</div>
+    {% endfor %}
+
+    <div class="myAccount" align="center">
+        <h2 align="center">Мій Профіль</h2>
+        <hr>
+        <br>
+        <div>
+            <img src="/static/images/{{ current_user.image_file }}" style="width: 125px; height: 125px">
+        </div>
+        <br>
+        <p><span class="my-acc-row-items">E-mail:</span><span class="my-acc-row-items">{{ current_user.email }}</span></p>
+        <p><span class="my-acc-row-items">Ім'я:</span><span class="my-acc-row-items">{{ current_user.username }}</span></p>
+
+    </div>
+{% endblock %}

@@ -2,11 +2,8 @@
 
 {% extends "baseTemplate.html" %}
 
-{%block title%}
-    Вхід
-{% endblock %}
-
 {%block content %}
+    <title>Вхід</title>
 
     {% for cat, msg in get_flashed_messages(True) %}
         <div class="flash {{cat}}">{{msg}}</div>
@@ -19,6 +16,9 @@
             <p>{{ form.csrf_token }}</p>
             <p>{{ render_field(form.email) }}</p>
             <p>{{ render_field(form.password) }}</p>
+            <hr>
+
+            <span id="rem-me-text" style="font-size: 16px">Запам'ятати мене</span><span id="rem-me-checkbox">{{ render_field(form.remember) }}</span>
             <hr>
             <p>{{ render_field(form.submit, value='Ввійти', id="input-submit-2") }}</p>
         </form>
