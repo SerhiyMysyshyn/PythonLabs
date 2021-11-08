@@ -2,12 +2,8 @@
 
 {% extends "baseTemplate.html" %}
 
-{%block title%}
-    Реєстрація
-{% endblock %}
-
-
 {% block content %}
+    <title>Реєстрація</title>
 
 {% for cat, msg in get_flashed_messages(True) %}
   <div class="flash {{cat}}">{{msg}}</div>

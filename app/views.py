@@ -5,6 +5,7 @@ from .forms import RegisterDoc, RegisterForm, LoginForm
 from .models import User
 from app.getAdditionalData import *
 from app.getFunction import getFooterData, write_to_json, validation
+from flask_login import login_user, current_user, logout_user, login_required
 
 @app.route('/')
 def home():
@@ -52,6 +53,8 @@ def formRegisterDoc():
 # LAB 7 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 @app.route("/register", methods=['GET', 'POST'])
 def register():
+    if current_user.is_authenticated:
+        return redirect(url_for('home'))
     form = RegisterForm()
     if form.validate_on_submit():
         user = User(username=form.username.data, email=form.email.data, password=form.password1.data)
@@ -68,8 +71,9 @@ def login():
     if form.validate_on_submit():
         user = User.query.filter_by(email=form.email.data).first()
         if user and user.verify_password(form.password.data):
+            login_user(user, remember=form.remember.data)
             flash(f'Ви ввійшли як користувач: {user.email}!', category='success')
-            return redirect(url_for('login'))
+            return redirect(url_for('account'))
         else:
             flash('Невірний пароль або логін!', category='error')
             return redirect(url_for('login'))
@@ -78,6 +82,7 @@ def login():
 
 
 @app.route("/users", methods=['GET', 'POST'])
+@login_required
 def users():
     all_users = User.query.all()
     count = User.query.count()
@@ -89,3 +94,14 @@ def users():
 @app.errorhandler(404)
 def page_not_found(error):
     return render_template('404.html', data=getFooterData())
+
+@app.route("/logout")
+def logout():
+    logout_user()
+    flash('Ви успішно вийшли з облікового запису', category='success')
+    return redirect(url_for('home'))
+
+@app.route("/account")
+@login_required
+def account():
+    return render_template('account.html', data=getFooterData())

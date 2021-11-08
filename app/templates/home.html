@@ -2,6 +2,11 @@
 
 {% block content %}
   <title>Домашня сторінка</title>
+
+    {% for cat, msg in get_flashed_messages(True) %}
+        <div class="flash {{cat}}">{{msg}}</div>
+    {% endfor %}
+
   <div class="home">
     <div class="titleDiv">{% block title %} <img src="/static/images/homepage.png" class="displayed" alt="Домашня сторінка" width="750" height="135"> {% endblock %}</div>
 
