@@ -1,4 +1,4 @@
-from flask import url_for, render_template, session, request, flash, redirect
+from flask import render_template
 from flask import current_app as app
 from .getAdditionalData import *
 from .getFunction import getFooterData
