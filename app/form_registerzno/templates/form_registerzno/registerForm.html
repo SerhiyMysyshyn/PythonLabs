@@ -15,7 +15,7 @@
 <div class="form-register">
     <h2 align="center">Форма реєстрації</h2>
     <hr>
-    <form method="POST" action="{{ url_for('formRegisterDoc') }}">
+    <form method="POST" action="{{ url_for('registerzno.formRegisterDoc') }}">
         {{ form.csrf_token }}
 
         <p>{{ render_field(form.email) }}</p>

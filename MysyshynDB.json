@@ -14,5 +14,13 @@
         "e_year": "2013",
         "d_series": "AB",
         "d_number": "12345678"
+    },
+    "serhii.mysyshyn.19@pnu.edu.ua": {
+        "password": "24072001",
+        "e_number": "1234567",
+        "e_pin": "2407",
+        "e_year": "2013",
+        "d_series": "AB",
+        "d_number": "12345678"
     }
 }
