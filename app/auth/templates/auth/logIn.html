@@ -18,12 +18,10 @@
             <p>{{ render_field(form.password) }}</p>
             <hr>
 
-            <span id="rem-me-text" style="font-size: 16px">Запам'ятати мене</span><span id="rem-me-checkbox">{{ render_field(form.remember) }}</span>
+            <span id="rem-me-text" style="font-size: 16px">Remember Me</span><span id="rem-me-checkbox">{{ render_field(form.remember) }}</span>
             <hr>
             <p>{{ render_field(form.submit, value='Ввійти', id="input-submit-2") }}</p>
         </form>
     </div>
-
-
 
 {% endblock %}

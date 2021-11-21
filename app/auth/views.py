@@ -3,8 +3,9 @@ from .forms import RegisterForm, LoginForm
 from .. import db
 from .models import User
 from flask_login import login_user, current_user, logout_user, login_required
-from . import auth_blueprint
 from .getFunction import getFooterData
+
+from . import auth_blueprint
 
 @auth_blueprint.route('/')
 def index():
@@ -35,7 +36,7 @@ def login():
             flash(f'Ви ввійшли як користувач: {user.email}!', category='success')
             return redirect(url_for('auth.account'))
         else:
-            flash('Невірний пароль або логін!', category='error')
+            flash('Invalid login!', category='error')
             return redirect(url_for('auth.login'))
 
     return render_template('auth/logIn.html', form=form, data=getFooterData())
@@ -55,7 +56,7 @@ def users():
 def logout():
     logout_user()
     flash('Ви успішно вийшли з облікового запису', category='success')
-    return redirect(url_for('home'))
+    return redirect(url_for('main_bp.home'))
 
 @auth_blueprint.route("/account")
 @login_required
