@@ -389,9 +389,9 @@ footer{
     margin: 15px auto;
     padding-top: 6px;
     padding-bottom: 6px;
-    padding-left: 12px;
+    padding-left: 6px;
     background-color: rgba(128, 128, 128, 0.57);
-    border-radius: 45px 25px 25px 45px;
+    border-radius: 0px 25px 25px 0px;
     border: 1px solid black;
     font-size: 20px;
     color: whitesmoke;
@@ -439,19 +439,176 @@ footer{
     margin: 15px auto;
     padding: 5px;
     width: 30%;
-    min-height: 400px;
+    min-height: 250px;
     background-color: rgba(128, 128, 128, 0.57);
     border-radius: 25px;
     color: whitesmoke;
 }
 
-.my-acc-row-items{
+.my-acc-row-items-name{
     min-width: 75px;
-    font-size: 24px;
-    color: black;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: bold;
     display: inline-block;
-    border: 2px solid black;
-    border-radius: 3px;
     padding: 3px;
     margin: 7px 3px;
 }
+
+.my-acc-row-items-email{
+    min-width: 75px;
+    font-size: 16px;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    padding: 3px;
+    margin: 7px 3px;
+}
+
+#account-div1{
+    width: 100%;
+    display: inline-block;
+}
+
+#account-div2{
+    margin-left: 15px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#account-div3{
+    vertical-align: top;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+#account-div4{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+#account-div5{
+    width: 70%;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#p-last-seen{
+    margin-top: -10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 3px;
+}
+
+#id-change-username{
+    margin-left: 28px;
+    width: 85%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+#id-change-email{
+    margin-left: 18px;
+    width: 85%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+#id-change-about_me{
+    margin-left: 18px;
+    width: 64%;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    vertical-align: top;
+    padding: 5px;
+}
+
+#id-change-picture{
+    margin-left: 10px;
+    width: 96%;
+    height: 43px;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    vertical-align: top;
+    padding: 5px;
+}
+
+#id-change-update{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background: blue;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#id-change-reset_password{
+    margin-left: 10px;
+    background: blue;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#div-change-password{
+    margin: 14% auto;
+    padding: 5px;
+    width: 30%;
+    min-height: 250px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+#btn-id-change-password{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background: blue;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#id-change-oldpassword{
+    margin-left: 19px;
+    width: 72%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+#id-change-new_password1{
+    margin-left: 25px;
+    width: 72%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+#id-change-new_password2{
+    margin-left: 18px;
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+

@@ -1,3 +1,5 @@
+{% from "_render_field.html" import render_field %}
+
 {% extends "baseTemplate.html" %}
 
 {% block content %}
@@ -7,16 +9,43 @@
         <div class="flash {{cat}}">{{msg}}</div>
     {% endfor %}
 
-    <div class="myAccount" align="center">
-        <h2 align="center">Мій Профіль</h2>
-        <hr>
-        <br>
-        <div>
-            <img src="/static/images/{{ current_user.image_file }}" style="width: 125px; height: 125px">
-        </div>
-        <br>
-        <p><span class="my-acc-row-items">E-mail:</span><span class="my-acc-row-items">{{ current_user.email }}</span></p>
-        <p><span class="my-acc-row-items">Ім'я:</span><span class="my-acc-row-items">{{ current_user.username }}</span></p>
+        <form method="post" enctype="multipart/form-data">
+            <div class="myAccount">
+                <h2 align="center">Мій Профіль</h2>
+                <hr>
+                <div id="account-div1">
+                    <div id="account-div2"><img src="/static/profile_pics/{{ current_user.image_file }}" style="width: 125px; height: 125px"></div>
+                    <div id="account-div5">
+                        <div id="account-div3"><span class="my-acc-row-items-name">{{ current_user.username }}</span></div>
+                        <div id="account-div4"><span class="my-acc-row-items-email">{{ current_user.email }}</span></div>
+                    </div>
+                </div>
+                <hr>
+                <p id="p-last-seen">В мережі: {{ current_user.last_date.strftime('%B %d %Y - %H:%M:%S') }}</p>
+            </div>
 
-    </div>
+        <div class="myAccount">
+            <h2 align="center">Змінити дані профілю</h2>
+            <hr>
+            {{ form.csrf_token }}
+            <p>&nbsp;{{ render_field(form.username, id='id-change-username') }}</p>
+            <p>&nbsp;{{ render_field(form.email, id='id-change-email') }}</p>
+            <p>&nbsp;{{ render_field(form.about_me, id='id-change-about_me') }}</p>
+            <p>&nbsp;
+                {{ form.picture.label() }}<br>
+                {{ form.picture(id='id-change-picture') }}
+                {% if form.picture.errors %}
+                {% for error in form.picture.error %}
+                <span class="text-danger">{{ error }}</span>
+                {% endfor %}
+                {% endif %}
+            </p>
+            <hr>
+                <a href="{{ url_for('auth.reset_password') }}" id="id-change-reset_password">Змінити пароль</a>
+            <hr>
+            <input id="id-change-update" type="submit" value="Оновити дані">
+
+
+        </div>
+    </form>
 {% endblock %}
