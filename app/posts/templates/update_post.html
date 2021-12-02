@@ -1,0 +1,22 @@
+{% from "_render_field.html" import render_field %}
+
+{% extends "baseTemplate.html" %}
+
+{%block content %}
+    <title>Редагування</title>
+
+    <form method="POST" enctype="multipart/form-data">
+    {{ form.csrf_token }}
+    <div id="create-post">
+        <div>
+            <p>{{ render_field(form.title, id="create-post-title") }}</p>
+            <p>{{ render_field(form.text, id="create-post-content") }}</p>
+            <p>{{ render_field(form.picture, id="create-post-picture") }}</p>
+            <p>{{ render_field(form.type, id="create-post-type") }}</p>
+            <p>{{ render_field(form.submit, value='Зберегти', id="create-post-submit_btn") }}</p>
+        </div>
+    </div>
+
+</form>
+
+{% endblock %}

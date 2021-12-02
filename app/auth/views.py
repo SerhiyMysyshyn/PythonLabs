@@ -77,6 +77,7 @@ def account():
     form.username.data = current_user.username
     form.email.data = current_user.email
     image_file = url_for('static', filename='profile_pics/' + current_user.image_file)
+    print(image_file)
     return render_template('auth/account.html', image_file=image_file, form=form, data=getFooterData())
 
 @auth_blueprint.route("/reset-password", methods=['GET', 'POST'])

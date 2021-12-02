@@ -32,5 +32,8 @@ def create_app(config_name='default'):
         from .form_registerzno import registerzno_blueprint
         app.register_blueprint(registerzno_blueprint, url_prefix='/registerzno')
 
+        from .posts import post_blueprint
+        app.register_blueprint(post_blueprint, url_prefix='/post')
+
         return app
 

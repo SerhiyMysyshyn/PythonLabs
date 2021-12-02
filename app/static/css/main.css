@@ -612,3 +612,124 @@ footer{
     padding: 5px;
 }
 
+#create-post{
+    text-align: center;
+    margin: 13% auto;
+    padding: 25px;
+    width: 30%;
+    min-height: 100px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+#create-post-title{
+    margin-left: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+#create-post-content{
+    margin-left: 48px;
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    vertical-align: top;
+    padding: 5px;
+}
+
+#create-post-picture{
+    margin-left: 10px;
+    width: 96%;
+    height: 43px;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    vertical-align: top;
+    padding: 5px;
+}
+
+#create-post-type{
+    margin-left: 55px;
+    width: 80%;
+    height: 43px;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+#create-post-submit_btn{
+    margin-left: auto;
+    margin-right: auto;
+    background: blue;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#div-img-post{
+    display: inline-block;
+}
+
+#div-title-post{
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    font-size: 36px;
+}
+
+#detail-post{
+    text-align: center;
+    margin: 5% auto;
+    padding: 25px;
+    width: 30%;
+    min-height: 100px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+#title-post{
+    min-width: 75px;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 3px;
+    margin: 7px 3px;
+}
+
+#content-post{
+    font-size: 16px;
+    text-align: justify;
+    color: #ffffff;
+    padding: 3px;
+    margin: 7px 3px;
+}
+
+#delete-post-btn{
+    margin-left: auto;
+    margin-right: 25px;
+    background: blue;
+    color: white;
+    width: 40%;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#edit-post-btn{
+    margin-left: 25px;
+    margin-right: auto;
+    background: blue;
+    color: white;
+    width: 40%;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
