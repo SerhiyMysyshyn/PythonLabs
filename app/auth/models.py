@@ -16,6 +16,8 @@ class User(db.Model, UserMixin):
     about_me = db.Column(db.Text, nullable=True)
     last_date = db.Column(db.DateTime, default=db.func.now())
 
+    songs = db.relationship('Songs', backref='author_song', lazy=True)
+
     def __init__(self, username, email, password, about_me='', image_file='default.png'):
         self.username = username
         self.email = email

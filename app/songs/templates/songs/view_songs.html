@@ -1,0 +1,27 @@
+{% from "_render_field.html" import render_field %}
+
+{% extends "baseTemplate.html" %}
+
+{%block content %}
+    <title>Додати пісню</title>
+
+    {% for cat, msg in get_flashed_messages(True) %}
+        <div class="flash {{cat}}">{{msg}}</div>
+    {% endfor %}
+
+    <div id="main-div-song">
+            {% for song in songs %}
+                    <div id="song-container">
+                        <h1><a href="{{ url_for('songs.detail_song', id=song.id) }}">{{ song.songName }}</a></h1>
+                        <hr>
+                        <p id="span-song-author">Автор: {{ song.songWriter }}</p>
+                        <p id="span-song-type">Тип музики: {{ song.category.musicType }}</p>
+                        <hr>
+                        <p>
+                            <span id="span-song-year">Рік виходу: {{ song.songYear }}</span>
+                            <span id="span-song-duration">Тривалість: {{ song.songDuration }}</span>
+                        </p>
+                    </div>
+            {% endfor %}
+    </div>
+{% endblock %}

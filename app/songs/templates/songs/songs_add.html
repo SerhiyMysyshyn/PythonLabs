@@ -1,0 +1,31 @@
+{% from "_render_field.html" import render_field %}
+
+{% extends "baseTemplate.html" %}
+
+{%block content %}
+    <title>Додати пісню</title>
+
+    {% for cat, msg in get_flashed_messages(True) %}
+        <div class="flash {{cat}}">{{msg}}</div>
+    {% endfor %}
+
+<form method="POST" enctype="multipart/form-data" id="add-new-song-area">
+     <h2 align="center">Додайте пісню</h2>
+        <hr>
+    {{ form.csrf_token }}
+    <div class="block-form-post">
+        <div class="form-post">
+            <div class="form-item">{{ render_field(form.songWriter, id="add-song-songWriter") }}</div>
+            <div class="form-item">{{ render_field(form.songName, id="add-song-songName") }}</div>
+            <div class="form-item">{{ render_field(form.songDescription, id="add-song-songDescription") }}</div>
+            <div class="form-item">{{ render_field(form.songDuration, id="add-song-songDuration") }}</div>
+            <div class="form-item">{{ render_field(form.songLink, id="add-song-songLink") }}</div>
+            <div class="form-item">{{ render_field(form.songCategory, id="add-song-songCategory") }}</div>
+            <div class="form-item">{{ render_field(form.songYear, id="add-song-songYear") }}</div>
+            <div class="form-item">{{ render_field(form.submit, value="Зберегти", id="add-song-submit")  }}</div>
+        </div>
+    </div>
+
+</form>
+
+{% endblock %}

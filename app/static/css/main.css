@@ -732,4 +732,206 @@ footer{
     font-weight: bold;
 }
 
+#add-new-song-area{
+    text-align: center;
+    margin: 8% auto;
+    padding: 25px;
+    width: 30%;
+    min-height: 100px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+#add-song-songWriter{
+    margin-left: 42px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+#add-song-songName{
+    margin-left: 50px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+#add-song-songDescription{
+    margin-left: 50px;
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    vertical-align: top;
+    padding: 5px;
+}
+
+#add-song-songDuration{
+    margin-left: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+#add-song-songLink{
+    margin-left: 5px;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+#add-song-songCategory{
+    margin-left: 5px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+#add-song-songYear{
+    margin-left: 9px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+#add-song-submit{
+    margin-left: auto;
+    margin-right: auto;
+    background: blue;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#main-div-song{
+    text-align: center;
+}
+
+#song-container{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 10px;
+    padding: 25px;
+    width: 23%;
+    height: 300px;
+    min-height: 100px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+#span-song-year{
+    text-align: left;
+    width: 49%;
+    display: inline-block;
+
+}
+#span-song-duration{
+    text-align: right;
+    width: 49%;
+    display: inline-block;
+}
+
+#span-song-author{
+    text-align: left;
+}
+
+#span-song-type{
+    text-align: left;
+}
+
+#detail-song-area{
+    text-align: center;
+    margin: 8% auto;
+    padding: 25px;
+    width: 30%;
+    min-height: 100px;
+    background-color: rgba(128, 128, 128, 0.57);
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+#span-song-info-songWriter{
+    display: inline-block;
+    text-align: left;
+    margin-left: 25px;
+    width: 75%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+#span-song-info-songDescription{
+    display: inline-block;
+    text-align: left;
+    margin-left: 70px;
+    width: 75%;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+#span-song-info-songDuration{
+    display: inline-block;
+    text-align: left;
+    margin-left: 30px;
+    width: 75%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+#span-song-info-songLink{
+    display: inline-block;
+    text-align: left;
+    margin-left: 20px;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+#span-song-info-musicType{
+    display: inline-block;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 75%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+#span-song-info-songYear{
+    display: inline-block;
+    margin-left: 30px;
+    text-align: left;
+    width: 75%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
 

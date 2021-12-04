@@ -35,5 +35,8 @@ def create_app(config_name='default'):
         from .posts import post_blueprint
         app.register_blueprint(post_blueprint, url_prefix='/post')
 
+        from .songs import songs_blueprint
+        app.register_blueprint(songs_blueprint, url_prefix='/songs')
+
         return app
 

@@ -1,0 +1,56 @@
+{% from "_render_field.html" import render_field %}
+
+{% extends "baseTemplate.html" %}
+
+{%block content %}
+    <title>Інформація про пісню</title>
+
+    {% for cat, msg in get_flashed_messages(True) %}
+        <div class="flash {{cat}}">{{msg}}</div>
+    {% endfor %}
+
+<div id="detail-song-area">
+    <div>
+        <h1>{{ pk.songName }}</h1>
+        <hr>
+        <p style="text-align: left; display: inline-block;" >Автор пісні: <p id="span-song-info-songWriter">{{ pk.songWriter }}</p></p>
+        <p style="text-align: left; display: inline-block;" >Опис: <p id="span-song-info-songDescription">{{ pk.songDescription }}</p></p>
+        <p style="text-align: left; display: inline-block;" >Тривалість: <p id="span-song-info-songDuration">{{ pk.songDuration }}</p></p>
+        <p style="text-align: left; display: inline-block;" >Ссилка на кліп:</p>
+        <a href="{{ pk.songLink }}" id="span-song-info-songLink">{{ pk.songName }} - {{ pk.songWriter }}</a>
+        <p style="text-align: left; display: inline-block;" >Тип музики: <p id="span-song-info-musicType">{{ pk.category.musicType }}</p></p>
+        <p style="text-align: left; display: inline-block;" >Рік виходу: <p id="span-song-info-songYear">{{ pk.songYear }}</p></p>
+
+        <hr>
+    </div>
+    <div class="buttons">
+        {% if current_user.id == pk.user_id %}
+        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Видалити</button>
+        <a href="{{ url_for('songs.edit_song', id=pk.id) }}">
+            <button class="btn btn-primary">Редагувати</button>
+        </a>
+        {% endif %}
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Видалити пісню?</h5>
+                <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Ви дійсно бажаєте видалити дану пісню?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+                <form action="{{ url_for('songs.delete_song', id=pk.id) }}" method="POST"> <!-- delete !-->
+                    <button class="btn btn-danger" type="submit">Видалити</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
