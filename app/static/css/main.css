@@ -651,10 +651,20 @@ footer{
     padding: 5px;
 }
 
-#create-post-type{
-    margin-left: 55px;
+#create-category-type{
+    margin-left: 20px;
     width: 80%;
     height: 43px;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+#create-tags-type{
+    margin-left: 60px;
+    width: 80%;
+    height: 100px;
+    vertical-align: top;
     border-radius: 10px;
     border: 1px solid darkblue;
     padding: 5px;
@@ -672,13 +682,17 @@ footer{
 }
 
 #div-img-post{
+    margin-left: 4px;
     display: inline-block;
 }
 
 #div-title-post{
     display: inline-block;
     vertical-align: top;
-    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 23px;
     font-size: 36px;
 }
 
@@ -926,12 +940,61 @@ footer{
 #span-song-info-songYear{
     display: inline-block;
     margin-left: 30px;
-    text-align: left;
     width: 75%;
     border-radius: 10px;
     border: 1px solid darkblue;
     background-color: white;
     color: black;
     padding: 5px;
+}
+
+.post_type{
+    width: 98%;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 1px;
+    margin-left:3px;
+    margin-right: 3px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.post_date{
+    width: 98%;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 1px;
+    margin-left:3px;
+    margin-right: 3px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+
+.post_tags{
+    width: 98%;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 1px;
+    margin-left:3px;
+    margin-right: 3px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.post_description{
+    width: 98%;
+    height: 150px;
+    text-align: left;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 3px;
+    margin-left:3px;
+    margin-right: 3px;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 

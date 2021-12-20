@@ -9,11 +9,22 @@
         {% for pos in posts %}
         <div class="user-list-item">
             <div id="div-img-post">
-                <img src="/static/posts_pics/{{ pos.image_file }}" width="150px">
+                <img src="/static/posts_pics/{{ pos.image }}" width="150px">
             </div>
             <div id="div-title-post">
                 <p><a href="{{ url_for('post.view_detail', pk=pos.id, id="a-href-post-list") }}">{{ pos.title }}</a></p>
             </div>
+            <p class="post_description">{{ pos.description }}</p>
+            <span class="post_type">
+                Категорія: {{ get_category_name(pos.category_id) }}
+            </span>
+            <div class="post_tags">
+                Теги:
+                {% for tag in pos.tags %}
+                    {{ tag.name }},
+                {% endfor %}
+            </div>
+            <p class="post_tags">Створено {{ pos.created}}</p>
         </div>
         {% endfor %}
     </div>

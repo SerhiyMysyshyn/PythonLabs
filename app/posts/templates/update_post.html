@@ -10,9 +10,10 @@
     <div id="create-post">
         <div>
             <p>{{ render_field(form.title, id="create-post-title") }}</p>
-            <p>{{ render_field(form.text, id="create-post-content") }}</p>
-            <p>{{ render_field(form.picture, id="create-post-picture") }}</p>
-            <p>{{ render_field(form.type, id="create-post-type") }}</p>
+            <p>{{ render_field(form.description, id="create-post-content") }}</p>
+            <p>{{ render_field(form.image, id="create-post-picture") }}</p>
+            <p>{{ render_field(form.category, id="create-post-type") }}</p>
+            <p>{{ render_field(form.tags, id="create-post-type") }}</p>
             <p>{{ render_field(form.submit, value='Зберегти', id="create-post-submit_btn") }}</p>
         </div>
     </div>
