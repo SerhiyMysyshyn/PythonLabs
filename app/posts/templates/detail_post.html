@@ -11,14 +11,31 @@
 
     <div id="detail-post">
         <div class="item-post">
-            <img src="/static/posts_pics/{{ pk.image_file }}" width="400px">
+            <div class="post_tags">
+                Теги:
+                {% for tag in pk.tags %}
+                    {{ tag.name }},
+                {% endfor %}
+            </div>
+            <br>
+            <span class="post_type">
+                Категорія: {{ get_category_name(pk.category_id) }}
+            </span>
+            <span class="post_date">
+                {{ pk.created }}
+            </span>
+
+            <img src="/static/posts_pics/{{ pk.image }}" width="400px">
             <p id="title-post">{{ pk.title }}</p>
             <hr>
-            <p id="content-post">{{ pk.text }}</p>
+            <p id="content-post">{{ pk.description  }}</p>
+            <hr>
+
+
             <hr>
         </div>
-        <div >
-            {% if current_user.id == pk.post_id %}
+        <div>
+            {% if current_user.id == pk.user_id %}
                 <a href="{{ url_for('post.delete_post', pk=pk.id) }}"><button id="delete-post-btn">Видалити</button></a>
                 <a href="{{ url_for('post.update_post', pk=pk.id) }}"><button id="edit-post-btn">Редагувати</button></a>
             {% endif %}

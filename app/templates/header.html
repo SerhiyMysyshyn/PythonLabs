@@ -2,17 +2,17 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
             <div class="container">
-                <a class="navbar-brand" href="{{ url_for('main_bp.home') }}" style="margin-left: -250px">
+                <a class="navbar-brand" href="{{ url_for('main_bp.home') }}" style="margin-left: -350px">
                     <img src="/static/images/mysyshyn(white).png" class="img-fluid" alt="[ mysyshyn ]" width="175" height="35">
                 </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active" style="margin-left: -50px">
+                        <li class="nav-item active" style="margin-left: -75px">
                             <a class="nav-link" href="{{ url_for('main_bp.home') }}">Домашня сторінка</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" style="margin-left: -5px">
                             <a class="nav-link" href="{{ url_for('main_bp.about') }}">Про мене</a>
                         </li>
                         <li class="nav-item">
@@ -36,21 +36,24 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url_for('post.view_post') }}">Новини</a>
+                            <a class="nav-link" href="{{ url_for('post.index') }}">Новини</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('post.categories') }}">Категорії новин</a>
                         </li>
 
                         {% if current_user.is_authenticated %}
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ url_for('post.create') }}">Додати новину</a>
                             </li>
-                            <li class="nav-item" style="margin-right: -100px">
+                            <li class="nav-item" style="margin-right: -55px">
                                 <a class="nav-link" href="{{ url_for('auth.account') }}" style="color: white">Профіль</a>
                             </li>
-                            <li class="nav-item" style="margin-left: 100px">
+                            <li class="nav-item" style="margin-left: 50px">
                                 <a class="nav-link" href="{{ url_for('auth.logout') }}" style="color: red" >Вихід</a>
                             </li>
                         {% else %}
-                            <li class="nav-item" style="margin-left: 100px">
+                            <li class="nav-item" style="margin-left: 50px">
                                 <a class="nav-link" href="{{ url_for('auth.register') }}" style="color: darkgoldenrod">Реєстрація</a>
                             </li>
                             <li class="nav-item">

@@ -1,0 +1,100 @@
+{% from "_render_field.html" import render_field %}
+
+{% extends "baseTemplate.html" %}
+
+{%block content %}
+
+    {% for cat, msg in get_flashed_messages(True) %}
+        <div class="flash {{cat}}">{{msg}}</div>
+    {% endfor %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col md-12">
+                <div class="jumbotron p-3">
+                    <h2>Керування <b>Категоріями "Пост"</b>
+                        <button type="button" class="btn btn-success float-right" data-bs-toggle="modal" data-bs-target="#mymodal">
+                            Додати нову категорію
+                        </button>
+                    </h2>
+                    <table class="table table-hover table-dark">
+                        <tr>
+                            <th>id</th>
+                            <th>Назва категорії</th>
+                            <th>Дії</th>
+                        </tr>
+
+                        {% for cat in categories %}
+                        <tr>
+                            <td>{{cat.id}}</td>
+                            <td>{{cat.name}}</td>
+                            <td>
+                                <a href="{{ url_for('post.update_post_category', id=cat.id) }}"
+                                   class="btn btn-warning btn-xs" data-bs-toggle="modal"
+                                   data-bs-target="#modaledit{{cat.id}}">Редагувати</a>
+                                <a href="{{ url_for('post.delete_post_category', id=cat.id) }}"
+                                   class="btn btn-danger btn-xs"
+                                   onclick="return confirm('Ви впевнені, що бажаєте видалити даний запис?')">Видалити</a>
+                            </td>
+
+                        </tr>
+
+                        <div id="modaledit{{cat.id}}" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Оновлення даних</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="{{url_for('post.update_post_category', id=cat.id)}}" method="POST">
+                                            {{ form.csrf_token }}
+                                            <div class="form-group">
+                                                {{ render_field(form.name, class="form-control", value=cat.update_category) }}
+                                            </div>
+                                            <div class="form-group">
+                                                {{ render_field(form.submit, class="btn btn-primary", value="Змінити") }}
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </table>
+                </div>
+
+                <div id="mymodal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Додати категорію для поста</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form action="{{url_for('post.categories')}}" method="POST">
+                                    {{ form.csrf_token }}
+                                    <div class="form-group">
+                                        {{ render_field(form.name, class="form-control") }}
+                                    </div>
+                                    <div class="form-group">
+                                        {{ render_field(form.submit, class="btn btn-primary", value="Додати") }}
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+{% endblock %}
