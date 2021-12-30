@@ -38,5 +38,8 @@ def create_app(config_name='default'):
         from .songs import songs_blueprint
         app.register_blueprint(songs_blueprint, url_prefix='/songs')
 
+        from .api import api_blueprint
+        app.register_blueprint(api_blueprint, url_prefix='/api')
+
         return app
 
