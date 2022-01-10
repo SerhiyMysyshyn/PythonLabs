@@ -41,5 +41,8 @@ def create_app(config_name='default'):
         from .api import api_blueprint
         app.register_blueprint(api_blueprint, url_prefix='/api')
 
+        from .ekz import ekz_blueprint
+        app.register_blueprint(ekz_blueprint, url_prefix='/api/mysyshyn')
+
         return app
 
