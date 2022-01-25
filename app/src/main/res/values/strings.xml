@@ -1,0 +1,1163 @@
+<resources>
+    <string name="app_name">Aura iTrain</string>
+
+    <string name="first_person_name">Person 1 Name</string>
+    <string name="second_person_name">Person 2 Name</string>
+
+    <string name="app_site">aurafit.org</string>
+    <string name="text_title">AURAFIT</string>
+    <string name="text_description">Mobile Biofeedback System</string>
+    <string name="action_settings">Settings</string>
+    <string name="chakra_settings">Chakra settings</string>
+    <string name="text_settings">Text settings</string>
+    <string name="open_camera">TO MAKE THE \r SNAPSHOT</string>
+    <string name="snapshot">Tap screen to take Snapshot\.\.\.</string>
+    <string name="camera_back">Tap to go back and see your Aura\.\.\.</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="mode">MODE</string>
+    <string name="share">Share</string>
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="choose_photo_from_gallery">Choose photo from gallery</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="error_bluetooth_no_device_found">Device not founded. Please, pair device before use it</string>
+    <string name="error_put_device_on">Please put bracelet on</string>
+    <string name="wait">Wait</string>
+
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="trying_message">Trying to connect</string>
+    <string name="wait_disconn_message">Wait while disconnect\.\.\.</string>
+    <string name="back_description">a background of the guest screen</string>
+    <string name="subject">Your AuraFit Aura Chakra Photo</string>
+    <string name="from_message"> Your AuraFit Aura Chakra Photo attached</string>
+    <string name="send_message">Sending email\.\.\.</string>
+    <string name="turn_on_message">Please check green light of sensor</string>
+    <string name="conn_init_message">Connection is initiating</string>
+    <string name="link">AuraFit.org</string>
+    <string name="about_mesage">&#169; AuraFit Systems \n www.aurafit.org</string>
+    <string name="take_photo_first">PLEASE TAKE PHOTO TO PROCEED!</string>
+    <string name="turn_on_internet1">PLEASE PRESS HOME BUTTON, </string>
+    <string name="turn_on_internet2">TURN ON INTERNET, PRESS ON APP’S ICON WAIGHT UNTIL THE PALLET WHEEL APPEARING  AND CONTINUE!</string>
+
+    <string name="select_mode">Select Mode</string>
+    <string name="appearence_category_title">Appearance</string>
+    <string name="choose_photo_in_settings">Please select photo for aura </string>
+    <string name="title_choose_photo_in_settings">Select photo </string>
+    <string name="tap_to_start">Tap Screen to start</string>
+    <string name="your_name">Enter your name</string>
+    <string name="touch_sensor">Start</string>
+    <string name="ok">OK</string>
+    <string name="to_camera">To Camera</string>
+    <string name="choose_pallet_color1">choose spontaneously your</string>
+    <string name="choose_pallet_color2">3 favorite color</string>
+    <string name="plugin_headphones1">Put headphones on,</string>
+    <string name="plugin_headphones2">then play an Aura Fit iHeal program</string>
+
+    <string name="apply_str">Apply</string>
+    <string name="view_str">View</string>
+    <string name="rename_str">Rename</string>
+    <string name="del_str">Delete</string>
+
+    <string name="files_loading">wait while files have being loaded</string>
+    <string name="getting_json_array">Retrieving general info</string>
+    <string name="select_picture">Select a photo image as background</string>
+    <string name="hello">hello</string>
+    <string name="wait_image_list">Wait while the photo list being composed</string>
+    <string name="apply_image_as_backg">APPLY</string>
+    <string name="view_backg_image">VIEW</string>
+    <string name="apply_or_view">WOULD YOU LIKE TO APPLY THE IMAGE OR JUST VIEW\?</string>
+    <string name="remove_corrupted_photo">Find out on your SD the %s folder and remove from there files that  aren’t jpg format or are corrupted. Or just shot a photo using in-app camera</string>
+    <string name="wait_while_internet_switching_on">Wait while internet switching on</string>
+    <string name="audio_path">/AuraImages/Audio/</string>
+    <string name="wait_sound_list">Wait while the music list being composed</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="battery">battery</string>
+    <string name="skin">Skin Temperature-Relaxation</string>
+    <string name="pulse_v">Pulse Vibration</string>
+    <string name="hrv_c">Blood Oxygen Saturation</string>
+    <!--<string name="hrv_c">HRV Coherence</string>-->
+    <string name="hrv_v">HRV Voltage</string>
+    <string name="gsr_r">GSR-Restistance</string>
+    <string name="unit">unit</string>
+
+    <string name="root_chakra">Root</string>
+    <string name="naval_chakra">Sacral</string>
+    <string name="solar_chakra">Solar Plexus</string>
+    <string name="heart_chakra">Heart</string>
+    <string name="throat_chakra">Throat</string>
+    <string name="eye_chakra">Third Eye</string>
+    <string name="top_chakra">Crown</string>
+    <string name="chakra">"Chakra"</string>
+    <string name="aura_size">Aura Size</string>
+
+    <string name="deep_red">DEEP RED</string>
+    <string name="red">RED</string>
+    <string name="orange_red">ORANGE-RED</string>
+    <string name="orange">ORANGE</string>
+    <string name="yellow">YELLOW</string>
+    <string name="yellow_green">YELLOW-GREEN</string>
+    <string name="green">GREEN</string>
+    <string name="green_blue">GREEN-BLUE</string>
+    <string name="blue_light">BLUE-LIGHT</string>
+    <string name="blue">BLUE</string>
+    <string name="indigo">INDIGO</string>
+    <string name="violet">VIOLET</string>
+    <string name="lavender">LAVENDER </string>
+    <string name="white">WHITE</string>
+    <string name="orange_yellow">ORANGE-YELLOW</string>
+    <string name="deep_green">DEEP GREEN</string>
+
+    <string name="aura_chakra_balance">Aura Chakra Balance</string>
+    <string name="personality_profile">Personality Profile</string>
+
+    <string name="disconn_message">Verbindung wurde unterbrochen</string>
+    <string name="graph">Grafik</string>
+
+    <string name="aura">Aura</string>
+    <string name="aurafit_systems">AURAFIT SYSTEMS</string>
+    <string name="www_aurafit">www.aurafit.org</string>
+    <string name="general_aura_color_overview">General Aura Color Overview</string>
+    <string name="aurafit_report">AURAFIT ANALYSIS</string>
+    <string name="fur">For:</string>
+    <string name="date_str">Date:</string>
+    <string name="time_str">Time:</string>
+
+    <!--FITNESS DATA-->
+    <string name="activity">Activity</string>
+    <string name="cardio_fitness">Your Cardio Fitness</string>
+    <string name="total_steps">Total steps</string>
+    <string name="distance">Distance</string>
+    <string name="calorie">Calorie</string>
+    <string name="sport_time">Sport time</string>
+    <string name="deep_sleep">Deep sleep</string>
+    <string name="light_sleep">Light sleep</string>
+    <string name="day_rest_time">Day rest time</string>
+
+    <string name="calories">calories</string>
+    <string name="bpm">bpm</string>
+    <string name="steps">steps</string>
+    <string name="meters">meters</string>
+    <string name="minutes">min</string>
+    <string name="hours">h</string>
+
+    <string name="up_to">&quot;up %s&quot;</string>
+    <string name="down_to">&quot;down %s&quot;</string>
+    <string name="yesterday">Previous</string>
+    <string name="chakras_hide">Hide chakras points</string>
+    <string name="chakras_show">Show chakras points</string>
+    <string name="text_hide">Hide text</string>
+    <string name="text_show">Show text</string>
+
+    <string name="activity_show_error">Please, disconnect from aura mode first</string>
+
+    <string name="photos">Photos</string>
+    <string name="take_photo">Take photo</string>
+    <string name="take_face_photo">Take Face Photo</string>
+    <string name="take_full_photo">Take Full-body Photo</string>
+    <string name="view_photo">View photo</string>
+
+    <string name="input_image_name_prompt">Input new image name</string>
+
+    <string name="report">Report</string>
+    <string name="photo">Photo</string>
+
+    <string name="chakra_overview">Chakra Overview</string>
+
+    <string name="cardio_title">Chakra Energy Meter</string>
+
+    <string name="cardio_zero">Measuring…</string>
+    <string name="cardio_rest">Rest</string>
+    <string name="cardio_athlete">Athlete</string>
+    <string name="cardio_excellent">Excellent</string>
+    <string name="cardio_great">Great</string>
+    <string name="cardio_good">Good</string>
+    <string name="cardio_average">Average</string>
+    <string name="cardio_below_average">Below average</string>
+    <string name="cardio_poor">Poor</string>
+
+    <string name="low_battery_alert">"Low battery level(%1$s).\nPlease charge the bracelet"</string>
+
+    <string name="graph_celsius">"C (Celsius)"</string>
+    <string name="graph_hb">"HB (heartbeats)"</string>
+    <string name="graph_percents">"(Percents)"</string>
+    <string name="graph_hertz">"Hz (Hertz)"</string>
+    <string name="graph_ohm">"(Ohm)"</string>
+
+    <string name="stand_by_message">Please stand by…</string>
+
+    <string-array name="first_page">
+        <item>    </item>
+        <item>Hello and thank you for using the Aurafit Mobile Biofeedback Technology!</item>
+        <item> </item>
+        <item>The AURAFIT SYSTEMS measure BIO-DATA through the mobile AuraFit bracelet. This data is analyzed, processed and correlated with your emotional-energetic states.</item>
+        <item> </item>
+        <item>We have grown to accept the fact that all individuals, all the time, are constantly expressing radiance, an aura, which is completely unique to our own personalities. But it is not only our own perceptions, which indicate that an aura field exists. There are countless descriptions of these phenomena from clairvoyants, people who are capable of perceiving or actually seeing the human energy field. Some of these sensitive and gifted individuals have proven again and again that they indeed have the ability to perceive a higher dimension of existence.</item>
+        <item> </item>
+        <item>Many scientists from all around the world have also researched these phenomena. Throughout history, many different names and descriptions have been given to the human life energy field around us. Depending on their cultural background, various scientists and other individuals have referred to this energy field as: Biofield, electro-magnetic field, life force, chi, ki, vital energy or as most people call it, the Aura.</item>
+        <item>    </item>
+        <item>    </item>
+        <item>    </item>
+        <item>If you like to contact us or like to know more please visit our website:</item>
+        <item> </item>
+        <item>www.aurafit.org ccappp</item>
+    </string-array>
+
+
+    <string-array name="third_page">
+        <item>How to read your Aura Photo: bcappp</item>
+        <item>    </item>
+        <item>LARGE, WIDE AURA cappp</item>
+        <item> with big chakras indicating strong and powerful radiance, other people can feel your strong aura. Use your charisma and aura power to achieve your goals and dreams</item>
+        <item> </item>
+        <item>NORMAL AURA cappp</item>
+        <item>with some big and some smaller chakras can mean that you have a good presence and at certain areas is the energy more focused. Achieve your goals by increasing your Aura even more and try to even out chakra centers by e.g. sending strong attention in your breathing.</item>
+        <item> </item>
+        <item>SMALL AURA cappp</item>
+        <item>with small chakras, others might perceive you as introverted or with low physical energy. Try to create a stronger radiance around you, increase your Aura Power.</item>
+        <item> </item>
+        <item>ONE AURA COLORS: cappp</item>
+        <item>A strong color indicates a strong direction in life; you found yourself and reflect it to the outside.</item>
+        <item>Every color has a specific meaning, please refer to the Aura Color Overview or contact your Aura Consultant. </item>
+        <item> </item>
+        <item>MULTIPLE AURA COLORS: cappp </item>
+        <item>A period of tremendous growth and change may be reflected by several aura colors.</item>
+        <item> </item>
+        <item>LEFT SIDE &#91;Female-Yin&#93;: cappp</item>
+        <item>The color on the left side is normally the vibration coming into your being. It’s what you feel inside but might not have expressed.</item>
+        <item> </item>
+        <item>ABOVE HEAD &#91;Thoughts-Beliefs&#93;:cappp</item>
+        <item>The color over your head is what you experience for yourself now. It reflects what you think or believe at that moment and shows your current state of mind.</item>
+        <item> </item>
+        <item>RIGHT SIDE &#91;Male-Yang&#93;:cappp</item>
+        <item>The color on the right side is traditionally the energy being expressed, the qualities most likely seen or felt by others around you.  It is what you are putting out to the world.</item>
+        <item> </item>
+        <item>CENTER &#91;Base Aura Color&#93;: cappp</item>
+        <item>Your most dominant Aura Color is seen in the center of your body. This Base Aura Color helps determine your Personality Type and does not change as fast as the outside colors.</item>
+    </string-array>
+
+    <string-array name="fifth_page_colors">
+        <item>DEEP RED capppdr</item>
+        <item> </item>
+        <item>RED capppr</item>
+        <item> </item>
+        <item>ORANGE-RED capppor</item>
+        <item> </item>
+        <item>ORANGE capppo</item>
+        <item> </item>
+        <item>YELLOW capppy</item>
+        <item> </item>
+        <item>YELLOW-GREEN capppyg</item>
+        <item> </item>
+        <item>GREEN capppg</item>
+        <item> </item>
+        <item>GREEN-BLUE capppgb</item>
+        <item> </item>
+        <item>BLUE-LIGHT capppbl</item>
+        <item> </item>
+        <item>BLUE capppb</item>
+        <item> </item>
+        <item>INDIGO capppi</item>
+        <item> </item>
+        <item>VIOLET capppv</item>
+        <item> </item>
+        <item>LAVANDER capppl</item>
+        <item> </item>
+        <item>WHITE capppw</item>
+    </string-array>
+
+    <string-array name="fifth_page">
+        <item>Physical, hardworking, realistic, physical active, grounded, strength, survival, physical explorer.</item>
+        <item> </item>
+        <item>Energetic, physical, down-to-earth, competitive, courageous, strong will-power and strength, physical explorer.</item>
+        <item> </item>
+        <item>Competitive, leader, physical powerful, achiever, sexual, promoter, strong stamina.</item>
+        <item> </item>
+        <item>Productive, creative, adventurer, enjoyment, challenge, thrill seeker, positive action oriented. </item>
+        <item> </item>
+        <item>Analytical, intellectual, productive, detail oriented, structured, security oriented, reliable, perfectionist.</item>
+        <item> </item>
+        <item>Creative, playful, sunny, fun, entertainer, radiates optimism,warmth, charm, easy going.</item>
+        <item> </item>
+        <item>Social, natural, balanced, teacher, loves to communicate, share and be with others. </item>
+        <item> </item>
+        <item>Communicative, quick minded, social, leader, responsible, organizer, driving force, ambitious planer.</item>
+        <item> </item>
+        <item>Helpful, compassionate, organizer, communicator, desire to service and support others, nurturing.</item>
+        <item> </item>
+        <item>Caring, sensitive, loving, loyal, helper, peaceful, nurturing,  deep inner feelings, introverted.</item>
+        <item> </item>
+        <item>Calm, deep inner feelings, loving, seeker, introverted, inner knowing, authenticity, high, sense of inner values, artistic.</item>
+        <item> </item>
+        <item>Intuitive, artistic, idealistic, magical, sensual, theorist, futuristic, visionary, charismatic, non-conformist.</item>
+        <item> </item>
+        <item>Imaginative, mystical, daydreamer, artistic, soft, fragile, sensitive, often appear spacy, unrealistic or etheric.</item>
+        <item> </item>
+        <item>Transcendent, spiritual, quiet, highly sensitive, live in higher dimensions, strong spiritual connection, ungrounded.</item>
+    </string-array>
+
+    <string-array name="seventh_page">
+        <item>THE CHAKRA PAGEcappp </item>
+        <item>    </item>
+        <item>AURA SIZE bcappp</item>
+        <item>is indicated on your Chakra page. The red circle indicates the size of your aura and is an important indicator of how much energy you radiate around you.</item>
+        <item>A large, wide aura (75–100) indicates a very strong and powerful radiance. Other people can feel your strong aura. Use your charisma and aura power to achieve your goals and dreams.</item>
+        <item>A middle–sized ring (40–75) indicates that you have a normal, healthy presence and radiant energy. You can achieve your goals by increasing your aura even more by focusing on your goals.</item>
+        <item>A small aura (0–40) indicates low energy level. Others might perceive you as introverted or with low physical energy. You might feel not good, even a bit sick. Try to create a stronger radiance around you and increase your aura power.</item>
+        <item>    </item>
+        <item>CHAKRA ENERGY METER bcappp</item>
+        <item>The higher the number the higher is your physical energy level. The lower the number the higher your spiritual connection. Try to get in the middle level towards green to balance your mind and body overall energy.</item>
+        <item>    </item>
+        <item>CHAKRA ENERGY bcappp</item>
+        <item>The 7 Chakras are the most important points of contact of your inner self. If all the chakras are leveled you know how to master energy!</item>
+        <item>    </item>
+        <item>YOUR AURA CHAKRA BALANCE bcappp</item>
+        <item>This graph indicates your overall aura chakra balance.</item>
+        <item>  &#x2022;  Highest level reached = Very balanced, your Aura and chakras are in harmony.</item>
+        <item>  &#x2022;  Medium bar = balanced, your Aura and chakras are normal balanced.</item>
+        <item>  &#x2022;  Low! Aura and chakras are stressed with low energy. Improve your aura and chakras conditions to relax your overall energy</item>
+        <item> </item>
+        <item>There can be more than one chakra dominant, which means you perceive life with these qualities. The higher a bar the more dominate you will feel its qualities. Read below about the chakra meanings:</item>
+        <item> </item>
+        <item>1. Chakra: Root Chakra (in Sanskrit: Muladhara) cappp </item>
+        <item>The Root Chakra connects us with our body and vitality and the earth energies. This chakra is located at the end of the spine and corresponds to life energy, physical activity, emotional strength, will power and sexuality. Related body areas and organs are joints, muscles, heart, blood and nervous system.</item>
+        <item>A high bar means radiant, sensual and passionate qualities; a medium bar shows a healthy lifestyle; a low bar indicates a difficulty to progress in life.</item>
+        <item> </item>
+        <item>2. Chakra: Sacral Chakra (Svadhisthana) cappp </item>
+        <item>The Sacral Chakra is the creative flow of pure life energy, our relationship to the vitality and passion for life. It plays a central role for the expression and perception of emotions. This chakra is located below the navel and corresponds to creative, productive and emotional expression. Related body areas and organs are our intestines, spleen and the digestive track.</item>
+        <item>A high bar shows productivity, strong emotional expression, medium height productivity and emotional creativity and a low bar indicates limited emotional expression. Try to increase your creative qualities and abilities to strengthen this chakra.</item>
+        <item> </item>
+        <item>3. Chakra: Solar Plexus Chakra (Manipura) cappp </item>
+        <item>The Solar Plexus Chakra is located at the solar plexus and corresponds to personal power, creative and intellectual thoughts. Related body areas and organs are stomach, solar plexus and liver. It is the seat of our identity as a person, our personal power and strength. The topics of the 3rd Chakra are personality, self-confidence, will, power, action, control and intellect. </item>
+        <item>A high bar indicates creativity, intellectual and analytical thinking with playful qualities. A medium bar shows normal creativity qualities and a low bar shows a low creative input. Try to have more fun and joy in your life to increase your creativity. </item>
+        <item> </item>
+        <item>4. Chakra: Heart Chakra (Anahata) cappp </item>
+        <item>The Heart Chakra is located around the heart area and processes the experiences of love and fine feelings and the emotions that are associated with it. These emotions include love, compassion, devotion, grief, pain and gratitude. It relates to the balance between Body, Mind and Spirit. </item>
+        <item>A high bar indicates a strong emotional connection and great communicate skills. An average height indicates loving and sensitive qualities. A low bar shows low expressive qualities. Try to open your heart to connect to your deepest feelings. </item>
+        <item> </item>
+        <item>5. Chakra: Throat Chakra (Vissudha) cappp </item>
+        <item>This chakra is located around the throat and relates to communication, speech, social abilities, verbal and emotional expression. </item>
+        <item>If this bar is high up it means you are a true artist and share easily your emotions with others. An average height of the bar here indicates good creativity and a compassionate person. Unbalanced energy shown through a low bar can mean limited emotional and verbal expression at the moment. Maybe you feel sick or something disturbed your feelings towards others. Look inside for answers and find new ways to express your thoughts and emotions. </item>
+        <item> </item>
+        <item>6. Chakra: 3rd Eye Chakra (Ajna) cappp </item>
+        <item>The 6th Chakra is the seat of the pure presence of the soul. It connects us to the higher intuition and the guidance of our soul. It is also the seat of consciousness, the higher mind and inner vision. The related body areas are the eyes, the nervous system, brain and forehead. </item>
+        <item>A high bar here indicates high intuitive energy, strong artistic and intuitive qualities. A medium bar still shows over-average intuitive energy with artistic qualities.  A lower bar shows a low level of intuitive and artistic qualities.</item>
+        <item>Are you stressed? Time to meditate or simply relax more to find the time to look inside to connect to your intuitive side and creativity.</item>
+        <item> </item>
+        <item>7. Chakra: Crown Chakra (Sahasrara) cappp </item>
+        <item>The Crown Chakra is open upwards; it connects us with the divine. This chakra is located on top of the head and corresponds to intuition, spirituality and enlightenment. Related body areas and organs are brain, nervous system and the top of the head. </item>
+        <item>A strong bar shows intuitive energy, high radiance, sensitivity and strong spiritual qualities. You might feel the high energies running through your spine! A medium bar shows good intuitive energy, you are very sensitive and have high-developed spiritual qualities. Sometimes this energy can be so high you feel lost or scattered. If this is the case you need to recharge all your other chakras immediately by connecting to all through visualization or similar techniques.</item>
+        <item>A low bar shows that the need for spirituality is not very high yet. To strengthen this chakra you can learn meditation or simply being in the moment. Low bar here might also say that you have a different perspective in life and need to put your focus on more current needs. Often white energy shows transformation and change, you might be in the middle finding a new direction in your life</item>
+        <item>    </item>
+        <item>    </item>
+        <item>The next page shows your individual GRAPH PAGE, which gives you an overview of how your energies are distributed between Body, Mind and Spirit. </item>
+    </string-array>
+
+    <string-array name="seventh_half_page"></string-array>
+    <string-array name="eighth_page"></string-array>
+    <string-array name="nineth_page" formatted="false">
+        <item>The SKIN TEMPERATURE GRAPH cappp </item>
+        <item>shows your actual skin temperature; typical is a value between 25–32. Strong wave lines show that you are highly emotional stressed, agitated, very excitement and probably pretty nervousness. A smooth wave lines show you are centered, stable, passive and keep emotions inside.</item>
+        <item>    </item>
+        <item>The PULSE GRAPH cappp </item>
+        <item>displays your actual PULSE. STRESSED lines mean tense, stressed condition will register as many up and down lines. RELAXED lines mean you are in a relaxed harmonious state, the line will be smooth and be fairly straight.</item>
+        <item>    </item>
+        <item>The BLOOD OXYGEN SATURATION GRAPH cappp</item>
+        <item formatted="false">can be a sensitive and responsive marker to acute stress. This diagram shows the heartbeats recorded like its done with an electrocardiogram (ECG). Note that variation in the time interval between consecutive heartbeats, giving a different heart rate (in beats per minute) for each inter-beat interval. An increase in your base value indicates a decrease of your stress response and an increase in your body-mind relaxation.</item>
+        <item formatted="false">A steady waveform indicates daily physical activity or normal relaxation level reached, the &#x0025; rate should be close to 100&#x0025;.</item>
+        <item>    </item>
+        <item>The HRV GRAPHS cappp</item>
+        <item>displays your HEART RATE VOLTAGE and reflects the coherence or connection between body, mind and heart.</item>
+        <item>The HRV is a measure of the patterns embedded in the heartbeat and a reflection of the autonomic nervous system. The nervous system, heart rate, blood pressure regulation and respiration are under control of autonomic nervous system. HRV is an excellent indicator of many health parameters. If the lines are very stressed your Body-Mind-Heart Connection is strong. If the line doesn’t move much means you have a normal connection. A value up to 1.5 hz shows a normal range, anything higher should be closer monitored at a doctors office.</item>
+        <item>    </item>
+        <item>The Heart Rhythm cappp</item>
+        <item>The normal variability in heart rate is due to the synergistic action of the two branches of the autonomic nervous system (ANS), the part of the nervous system that regulates most of the body’s internal functions. The sympathetic nerves act to accelerate heart rate, while the parasympathetic (vagus) nerves slow it down. The sympathetic and parasympathetic branches of the ANS are continually interacting to maintain cardiovascular activity in its optimal range and to permit appropriate reactions to changing external and internal conditions. The analysis of HRV therefore serves as a dynamic window into the function and balance of the autonomic nervous system.</item>
+        <item>    </item>
+        <item>The moment-to-moment variations in heart rate are generally overlooked when average heart rate is measured (for example, when your doctor takes your pulse over a certain period of time and calculates that your heart is beating at, say, 70 beats per minute). However, the AuraFit technologies allow you to observe your heart’s changing rhythms in real time. Using your pulse data, your HRV Coherence and the HRV-Voltage it provides a picture of your HRV - plotting the natural increases and decreases in your heart rate occurring on a continual base. Emotional stress, including emotions such as anger, frustration, and anxiety gives rise to heart rhythm patterns that appear irregular and erratic: the HRV waveform looks like a series of uneven, jagged peaks. Scientists call this an incoherent heart rhythm pattern.</item>
+        <item>    </item>
+        <item>Positive emotions send a strong signal throughout our body. When we experience uplifting emotions such as appreciation, joy, care, and love; our heart rhythm pattern becomes highly ordered, looking like a smooth, harmonious wave.</item>
+    </string-array>
+    <string-array name="tenth_page"></string-array>
+
+
+    <string-array name="eleventh_page">
+        <item>QUESTIONS / ORDERS: ccappp</item>
+        <item>    </item>
+        <item>AURAFIT SYSTEMS ccappp </item>
+        <item>www.aurafit.org ccappp</item>
+        <item>    </item>
+        <item>    </item>
+        <item>email: ccappp</item>
+        <item>info@aurafit.org ccappp</item>
+    </string-array>
+
+    <string-array name="eleventh_page_india">
+        <item>QUESTIONS / ORDERS: ccappp</item>
+        <item>    </item>
+        <item>Please contact our   ccappp</item>
+        <item>Exclusive Distributor for INDIA:   ccappp</item>
+        <item>    </item>
+        <item>    </item>
+        <item>    </item>
+        <item>Nishant K Sharma ccappp</item>
+        <item>    </item>
+        <item>aurafit@healernishant.com ccappp</item>
+        <item>Mobile: 9873503437 ccappp</item>
+    </string-array>
+
+    <string-array name="eleventh_page_bottom">
+        <item>Disclaimer: AuraFit Systems are not medical or therapeutic devices. AuraFit Systems are used for educational purposes only. The AuraFit Trainer can’t diagnose or provide any type of therapy. For all types of health issues please consult your primary physician or health professional. caiii</item>
+    </string-array>
+
+    <string-array name="deep_red_report">
+        <item>Your main Aura Color is DEEP-RED and is strongly associated with the 1st chakra or Base Chakra. capppdr</item>
+        <item> </item>
+        <item>DEEP-REDS are hardworking, action, power, survival, realistic, physical active, vital force, grounded, strength, stamina and physical explorers.</item>
+        <item>You are intensely physical and loyal andwill not hesitate to fight for your beliefs and your freedom, force of will and passion are key.</item>
+        <item> </item>
+        <item>Physical Areas This Energy Affects: cappp</item>
+        <item>Base of the spine, spinal column, blood, reproductive organs, anus</item>
+        <item> </item>
+        <item>Physical Dysfunctions: cappp</item>
+        <item>lower back pain, sciatica, ob/gyn problems, pelvic pain, depressions, rectal tumors and immune related disorders </item>
+        <item> </item>
+        <item> </item>
+        <item>STATEMENTS THAT FIT THIS COLOR TYP:</item>
+        <item>“I am a realist and believe only in what I can see and touch.” caiii</item>
+        <item>“I am sexual and I love to express my animalistic feelings.” caiii</item>
+        <item>“I love to watch sports, like football, boxing, soccer.” caiii</item>
+        <item>“Sometimes I have an explosive temper and I react physically.” caiii</item>
+        <item>“Practical and hard-headed would best describe me.” caiii</item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When In Balance: cappp</item>
+        <item>Intensely physical, emotional energy, often unexpressed, loyal, strength, trustworthy, perseverant, honest, Linear, realistic, physical orientation and forceful.</item>
+        <item> </item>
+        <item>In harmony, you are physically very strong and powerful. Survival, physical expression, physical appetite and exploration are your strongest attributes.</item>
+        <item> </item>
+        <item>Deep-Reds are loners. You like people but you need a lot of time for yourself. Security and survival is essential and always in your thoughts. You are physical, grounded and realistic. You live a powerful and intense life, interacting with physical reality, as you know it. You experience life on a physical level and love to explore all possibilities, which the physical world has to offer. You believe mostly in what you can perceive through their five senses. To you life is very simple and very real.</item>
+        <item> </item>
+        <item>Your life purpose is to explore and experience the physical world with joy, courage and energy. It is necessary for you to confront challenges and go beyond your fears. You express yourself physically and emotionally and have a very joyful and positive outlook towards life.</item>
+        <item> </item>
+        <item>You are not very interested in unorthodox or unfamiliar concepts you often accept societies way of living and go along with mass consciousness. You are loyal toward your families, governments and society. </item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When Unbalanced: cappp</item>
+        <item>You have a tendency for overdrive, being overworked and overactive is a common situation for you. You cannot be told to be passive or to relax. Your powerful energy drives you forward and gives you enough stamina and strength to do the work of two.</item>
+        <item> </item>
+        <item>You will always be physically active and busy. You are constantly on the run, one activity after the other, often having several jobs at the same time. You try to provide a good physical life for yourself and your family. Your deepest fear is of death and poverty. You are regularly confronted with survival, conflicts and other challenges in your live.</item>
+        <item> </item>
+        <item>Contrary to most people’s beliefs and the impression you normally show, you are sensitive and easily hurt. However, you have a tendency of not showing your sensitivity. You rather cover it up with powerful, strong behavior. You project your anger and frustrations onto others because you can be both impulsive and explosive.</item>
+        <item> </item>
+        <item>You express your emotions and feelings very naturally. You just tough it out, no matter, who gets hurt. You have to express your feelings through your physical body. Quite often, you do not understand your reactive process.</item>
+        <item> </item>
+        <item>You need to find a physical outlet. Once you find positive channels of expression, you can be very productive. You can also be stubborn. Once they have decided on a direction, it is difficult for you to stop or change. You want things your way. Openness for new situations and flexibility are important qualities to understand and learn.</item>
+        <item> </item>
+        <item>If you haven’t learned to express your powerful energy or if you are afraid and hold back your power, you will experience unhappiness. Not expressing and living your emotions is the worst thing that can happen for you. You will feel depressed, powerless, overloaded and find no reasons to live. Unexpressed emotions will accumulate inside and create many problems. Therefore, you need to be sensitive towards your inner feelings and emotions and you need to find positive, creative outlets for you powerful energies. </item>
+        <item> </item>
+        <item> </item>
+        <item>How to achieve AuraFit Balance: cappp</item>
+        <item>Balance yourself with GREEN colors, e.g. work in the garden, walk in the woods, eat green food. Learn to express your powerful energy in a creative way, go back to nature or try wearing green crystals or green clothing for a while. </item>
+        <item> </item>
+        <item>You have to learn to talk about or share your secrets. Being sensitive and clear about your feelings is an essential step towards a free expression of their inner self. It’s necessary for you to confront challenges and to go beyond your fears. </item>
+        <item>    </item>
+        <item>    </item>
+        <item>Affirmation: capppdr</item>
+        <item>\“I trust the power or earth and feel my body.\” capppdr</item>
+    </string-array>
+
+    <string-array name="red_report">
+        <item>Your main Aura Color is RED and is strongly associated with the 1st chakra or Base Chakra. capppr</item>
+        <item> </item>
+        <item>REDs are physical, energetic, competitive, strong leader, achiever, winner, vital, excitability, ready to take on the world, independent people. You are motivated, will not hesitate to fight for your beliefs and your freedom, force of will and passion are key. </item>
+        <item> </item>
+        <item> </item>
+        <item>Physical Areas This Energy Affects: cappp</item>
+        <item>Glands and organs, spinal column, blood, male reproductive organs, anus</item>
+        <item> </item>
+        <item>Physical Dysfunctions: cappp</item>
+        <item>low back pain, sciatica, ob/gyn problems, pelvic pain, libido, urinary problems </item>
+        <item> </item>
+        <item>STATEMENTS THAT FIT THIS COLOR TYP:</item>
+        <item>I express myself through my physical body and my sexuality. caiii</item>
+        <item>I love the excitement of a fast, full of desire, stimulating life. caiii</item>
+        <item>I’m competitive, successful and need to achieve results. caiii</item>
+        <item>I tend to be honest, blunt, straightforward and very direct. caiii</item>
+        <item>I need to be the center of attention. caiii</item>
+        <item> </item>
+        <item>Qualities When In Balance: cappp</item>
+        <item>Centered, patience, in love, courage, mastery of physical body, relating to the material world, grounded, healthy, vitality, stability, security, life force and self-preservation.</item>
+        <item> </item>
+        <item>In harmony, you are physically very strong and powerful. Courage, trustworthiness, perseverance and honesty are your strongest attributes.</item>
+        <item> </item>
+        <item>Reds are social personalities. You love people and love to be around people.</item>
+        <item> </item>
+        <item>Socializing and just hanging out with your friends, lovers or partners is a favorite activity of you. You will easily find friends and people to talk to wherever you go.  You have a tendency of radiating an aura of attraction and excitement.</item>
+        <item> </item>
+        <item>A Red’s life purpose is to explore and experience the physical world with joy, courage and energy. When you feel good you express yourself physically and emotionally and have a very joyful and positive outlook towards life.</item>
+        <item> </item>
+        <item>You are sincere and honest. You know how to express your intense emotional and physical energies. You have learned to control or direct your powerful force into a positive and creative direction. </item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When Unbalanced: cappp</item>
+        <item>You have a tendency for overdrive, are unable to relax, have an impulsive or reactive behavior due to the challenge to get in touch with your emotions. You love to push your limits and live life in the fast lane, so you are prone to accidents. A lot of red indicates a need to slow down, which is felt on a physical level as tiredness and often struggles in the current life situation. </item>
+        <item> </item>
+        <item>Red can indicate fear of abandonment, lack of confidence, self destructive, egotistic, greedy, angry, domineering and violent tendencies. It’s not easy for you to open up toward others. You may hide your innermost feelings and thoughts and are often seen as insensitive, loud and brutally intense being.  You need to understand that being sensitive doesn’t mean to be childish or soft.  Developing physical and emotional sensitivity is an important step toward success.</item>
+        <item> </item>
+        <item>It’s a major challenge for you to live in a sensitive, long-lasting, emotional and open relationship. Although you love to go out with friends, you rarely open yourself to deeper connections. You enjoy expressing your "animal" desires and your emotional energies, which often is not a good basis for sensitive, intimate relationships. On the other hand, you are very loyal once you have committed to a partner.</item>
+        <item> </item>
+        <item>How to achieve AuraFit Balance: cappp</item>
+        <item>Balance yourself with GREEN colors, e.g. work in the garden, walk in the woods, eat green food. Learn to express your powerful energy in a creative way, go back to nature or try wearing green crystals or green clothing for a while. </item>
+        <item> </item>
+        <item>You can recharge your life energy batteries by finding creative ways of expressing physical activities. You can effectively learn to not suppress your feelings but to stay sensitive and open and express them creatively. Enough physical and emotional energy is very important to you. It’s necessary for you to confront challenges and to go beyond your fears.</item>
+        <item> </item>
+        <item>Red represents fire. Life filled with passion and developing a positive outlook with positive expectations will guide you toward a fulfilling and energetic life.</item>
+        <item>    </item>
+        <item>Affirmation: capppr</item>
+        <item>\“I’m letting go what I need to let go off.\” capppr</item>
+    </string-array>
+
+    <string-array name="red_report_page_two">
+        <item></item>
+    </string-array>
+
+    <string-array name="orange_red_report">
+        <item>Your main Aura Color is ORANGE-RED and is strongly associated with the 2nd chakra or Naval Chakra. capppor</item>
+        <item> </item>
+        <item>ORANGE-REDS is a mixture between RED and ORANGE and is associated with the 1st and 2nd chakras. You are physical powerful, sexual, competitive with strong stamina, excitability, ready to take on the world, independent people. You are full of creative energy and radiate self-confidence. ORANGE-REDS will not hesitate to fight for their belief and freedom; force of will and passion is key. </item>
+        <item> </item>
+        <item> </item>
+        <item>Physical Areas This Energy affects: cappp</item>
+        <item>Glands, spinal column, blood, reproductive organs</item>
+        <item> </item>
+        <item>Physical Dysfunctions: cappp</item>
+        <item>low back pain, sciatica, gynecologic problems, pelvic pain, libido, urinary problems</item>
+        <item> </item>
+        <item> </item>
+        <item>STATEMENTS THAT FIT THIS COLOR TYP: </item>
+        <item>\"I am a realist and believe only in what I can see and touch.\" caiii</item>
+        <item>\"I am loyal and supportive to my family, community or society.\" caiii</item>
+        <item>\"I don’t talk a lot about my inner thoughts and feelings.\" caiii</item>
+        <item>\"I express myself through my physical body and my sexuality.\" caiii</item>
+        <item>\"I love the excitement of a fast, desireful, stimulating life.\" caiii</item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When In Balance: cappp</item>
+        <item>As a ORANGE-RED you can be strong leader, but you actually don’t care about being a leader at all. You prefer going your own way, fulfilling your own dreams of creative adventures. You can be a very powerful and creative leader if you see the necessity of working with other team members. You perform best in an environment, which provides you a certain degree of freedom and independence.</item>
+        <item> </item>
+        <item>You have an inner urge to be creative, active and enjoy life to its fullest. You are also independent and integrate physical and have strong mental qualities.</item>
+        <item> </item>
+        <item>But you have difficulty sitting back and letting other people help you. You are always busy building, organizing and shaping your projects and physical reality. You have a need to be in charge of your own physical, emotional and mental reality. Letting go would mean to lose control. The process of letting go and relaxation are not preferred qualities. You are either physically or mentally active all the time. Traveling into new territories, discovering new lands and conquering nature would be your preferred way of living.</item>
+        <item> </item>
+        <item>You enjoy working on new, daring enterprises and projects, which promise to be challenging, exiting and adventurous. You love to do business, create companies, sell and market products, plan and generate strategies and organize and work out deals.</item>
+        <item> </item>
+        <item>From an emotional standpoint you have difficulty in bonding since you are a loner. You don’t need friends or partners in your lives.  Actually, you feel more alive and happy if you are involved with or have succeeded in a large project or while you are involved in a major, physical adventure. </item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When Unbalanced: cappp</item>
+        <item>ORANGE-REDs have a tendency for overdrive, have an impulsive behavior due to their challenge to get in touch with their emotions. You love to push your limits and live life in the fast lane. It can indicate a fear of abandonment, lack of confidence, self destructive, egotistic, domineering and violent tendencies. </item>
+        <item>    </item>
+        <item>You can be egotistical, jealous and self-centered. You are only interested in your own actions and ideas, no matter what effects this might have on others. You often show no affection, caring or compassion and can be distant, cold and aloof. On occasion you will try to find a "cheap" way of achieving results and success.</item>
+        <item> </item>
+        <item>Your biggest challenge is to find your limits where adventure and independence become destructive and a form of energy drain. There may be a need to concentrate on the relationship with yourself and to focus on your own feelings, specifically personal needs and desires.</item>
+        <item> </item>
+        <item>Try to recharge your life energy batteries by finding creative ways of expressing physical activities. You can effectively learn to not suppress your feelings but to stay sensitive and open and express them creatively. </item>
+        <item> </item>
+        <item> </item>
+        <item>How to achieve AuraFit Balance: cappp</item>
+        <item>Balance yourself with INDIGO colors, e.g. meditate, practice yoga and eat violet food. Learn to express your powerful energy in a creative way or try wearing INDIGO crystals and INDIGO cloths for a while.</item>
+        <item>    </item>
+        <item>    </item>
+        <item>Affirmation: capppor</item>
+        <item>\“I am letting go what I need to let go\” capppor</item>
+    </string-array>
+
+
+    <string-array name="orange_report">
+        <item>Your main Aura Color is ORANGE and is strongly associated with the 2nd chakra or Naval Chakra. capppo</item>
+        <item> </item>
+        <item>ORANGE is the color associated with the 2nd chakra or navel chakra. It’s is a mixture of the colors red and yellow. Red stands for active energy and yellow for strong intellect. This is a creative color and radiates self- confidence and a strong personality. </item>
+        <item> </item>
+        <item> </item>
+        <item>Physical Areas This Energy Affects: cappp</item>
+        <item>Glands and organs, spinal column, blood, male reproductive organs, anus</item>
+        <item> </item>
+        <item>Physical Dysfunctions: cappp</item>
+        <item>low back pain, sciatica, gynecologic problems, pelvic pain, libido, urinary problems</item>
+        <item> </item>
+        <item> </item>
+        <item>STATEMENTS THAT FIT THIS COLOR TYP:</item>
+        <item>\"I love the excitement of shaping and forming physical reality.\" caiii</item>
+        <item>\"I enjoy all the pleasures and adventures life has to offer.\" caiii</item>
+        <item>\"I always imagine and plan strategies for my next project.\" caiii</item>
+        <item>\"I think and plan very precisely, detailed, step-by-step.\" caiii</item>
+        <item>\"Sex is fun and pleasure, a great adventure\" caiii</item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When In Balance: cappp</item>
+        <item>ORANGES are creative and artistic. You have a strong urge to achieve and succeed. You are extremely expressive, sensual, analytical and display creative energy with mental direction and focus.</item>
+        <item> </item>
+        <item>Learning is fun and easy for you. Some more words that describe you: Adventurous, pioneering, inventive, motivated, courageous; stimulating, vital, fun and playful, sense of humor, ability to communicate with feeling and sense of fun.</item>
+        <item> </item>
+        <item>You have an inner urge to be creative, active and enjoy life to its fullest. You are also very independent and enjoy the challenge of forming and shaping your physical reality.</item>
+        <item> </item>
+        <item>You have a need to be in charge of your own physical, emotional and mental reality. Letting go would mean to lose control. The process of letting go and relaxation are not preferred qualities. You are either physically or mentally active all the time. Traveling into new territories, discovering new lands and conquering nature would be your preferred way of living.</item>
+        <item> </item>
+        <item>For the most part you enjoy a partner specially you love sex but normally you are not interested in solid, long-lasting partnerships or relationships. You are more interested in your creative and interesting projects and adventures than in family and marriage. </item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When Unbalanced: cappp</item>
+        <item>If the ORANGE color is muddy or dark there is emotional or creative blockage. Emotional and physical exhaustion may result, and might show as a muddy brown color in other parts of the auric field. There may be a need to concentrate on the relationship with your self and to focus on your own feelings, specifically personal needs and desires.</item>
+        <item>    </item>
+        <item>You might feel sick or fighting an emotional problem. This means you are not an actual ORANGE person just got some of the qualities. If you feel the color describe is not you please test your Aura at a time when you feel relaxed and in power.</item>
+        <item>    </item>
+        <item>A true Orange person can appear egotistical, jealous and self-centered. You might be just interested in your own actions and ideas, no matter what effect this might have on others. Then you show no affection, caring or compassion and can be distant, cold and aloof. On occasion you will try to find a "cheap" way of achieving results and success.</item>
+        <item>    </item>
+        <item>Your biggest challenge now is to find your limit where adventure and independence become destructive and a form of energy drain. There may be a need to concentrate on the relationship with yourself and to focus on your own feelings, specifically personal needs and desires.</item>
+        <item>    </item>
+        <item>Try to recharge your life energy batteries by finding creative ways of expressing physical activities. You can effectively learn to not suppress your feelings but to stay sensitive and open and express them creatively.  </item>
+        <item>    </item>
+        <item>    </item>
+        <item>How to achieve AuraFit Balance: cappp</item>
+        <item>Balance yourself with BLUE colors, e.g. meditate, practice yoga and eat violet food. Learn to express your powerful energy in a creative way or try wearing BLUE crystals and BLUE cloths for a while. Orange can mean too much stress, sickness, unhappiness or a time of much creativity and a need to slow down. To balance try BLUE colors in the room, go for a swim or simply go to bed early to relax.</item>
+        <item>    </item>
+        <item>    </item>
+        <item>Affirmation: capppo</item>
+        <item>\“I Feel Loved,  I Feel Secure,  I Feel Safe.\” capppo</item>
+    </string-array>
+
+    <string-array name="yellow_report">
+        <item>Your main Aura Color is YELLOW and is strongly associated with the 3rd chakra or Solar Plexus Chakra. capppy</item>
+        <item></item>
+        <item>YELLOWS show a strong intellect and self-awareness. It is the color of logical understanding and scientific thinking. Yellow is the color associated with the third chakra, our solar plexus power center. </item>
+        <item> </item>
+        <item> </item>
+        <item>Physical Areas This Energy affects: cappp</item>
+        <item>Liver, stomach, gall, vegetative nerve system </item>
+        <item> </item>
+        <item>Physical Dysfunctions: cappp</item>
+        <item>stomach ulcers, intestinal tumors, diabetes, pancreatitis, indigestion, anorexia/bulimia, hepatitis, cirrhosis, adrenal imbalances, arthritis, colon diseases </item>
+        <item> </item>
+        <item> </item>
+        <item>STATEMENTS THAT FIT THIS COLOR TYP:</item>
+        <item>\"I need to have fun, play, exercise or be around people.\" caiii</item>
+        <item>\"I’m happy, sunny, joyful, easy-going and enjoy life.\" caiii</item>
+        <item>\"I need body movement, exercise, dancing on a regular basis.\" caiii</item>
+        <item>\"I can be very spontaneous, overflowing with creative ideas.\" caiii</item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When In Balance: cappp</item>
+        <item>Exhilaration, flexibility, original, mental activity and clarity, hands-on-healing/chi energy, active and spontaneous, joy and enthusiasm, sense of humor, personal power, strong intellect, talent for organization; studying and love for traveling, good learning ability, mental profession is very good for his/her own business, law or accounting, looking forward to future with excitement and joy.</item>
+        <item> </item>
+        <item>Yellows are the sunniest, happiest and most childlike personalities in the color-spectrum. "All I want to do is have some fun!" is a song, which is a wonderful representation of Yellows and shows the easy going, light and sunny character.</item>
+        <item> </item>
+        <item>If you are a true yellow you have a sunny personality and love to laugh and intimately enjoy life from many different angles. You advocate relaxation, the pure joy of life and live spontaneously. You always remind other people to not take life too seriously and to always look on the bright side.</item>
+        <item> </item>
+        <item>Life and work should both be enjoyed. You are the most child-like personalities in the color spectrum and you never want to grow up. As a result you generally look younger then you actually are. You love to travel, to see the world, to relax on a wonderful beach and have fun dancing all night long.</item>
+        <item> </item>
+        <item>You possess a clear personality with a strong radiance thinking in positive terms inspiring others. Yellows bodies are extremely sensitive. Your body acts almost like an antenna, sensing what other people feel or what vibes are emanating in a room. Your body is almost too sensitive and receptive for the volumes of information being generated by our high-tech society. As a result you have a tendency of overloading very quickly. You might not understand why your body reacts so strongly to outside influences. But you need to recognize these powerful reactions and use this information as a tool for guidance in your life. Your physical bio-system senses the influence and reacts; learn to listen to these signals!</item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When Unbalanced: cappp</item>
+        <item>YELLOWS have a problem with punctuality; they hate responsibility or commitment and easily start many projects with difficulty completing them. Dark and muddy yellow indicates a nervous temperament with unclear thinking. You might just feel stressed or even suffer from a headache already. This color can show up in the aura field when we overwork or don’t have enough sleep or just feel exhausted. If you read the yellow qualities and feel they don’t fit you please come back when you feel relax and healthy and take another aura reading. If its still yellow you are a true yellow!</item>
+        <item> </item>
+        <item>To much yellow energy over a longer time can lead to over exhaustion, loneliness, egoism, power mania or obsession with career.</item>
+        <item>Out-of-power Yellows will be drawn toward negative dependencies such as drugs, alcohol, cigarettes, caffeine, candies, overeating or unrealistic philosophies. At first they will feel good, even light, with a sense of release. However, soon depression, lethargy, apathetic and confused feelings and thoughts will surface. You need to change their focus from negative addictions toward positive and healthy activities.</item>
+        <item> </item>
+        <item> </item>
+        <item>How to achieve AuraFit Balance: cappp</item>
+        <item>Balance yourself with VIOLET colors, e.g. meditate, practice yoga and eat violet food. Learn to express your powerful energy in a creative way or try wearing violet crystals and violet cloths for a while.</item>
+        <item> </item>
+        <item>The first step towards any healing is to understand where the emotional cause behind any physical pain comes from. Ask yourself when did the physical pain start? Meditate on the issue what the emotional reason could be? Was it something your partner, friend, college, boss… said? We often have emotional response to something that happens quickly and we try to forget or push it away. This is not healthy; we need to reflect about and express the feelings connected to this issue. If you don’t express that feeling it gets stuck in your emotional aura and moves eventual into the physical sphere to create sickness and pain. Release is the answer to heal.</item>
+        <item>    </item>
+        <item>    </item>
+        <item>Affirmation: capppy</item>
+        <item>\“I express myself freely &amp; easily with full confidence\” capppy</item>
+    </string-array>
+
+    <string-array name="yellow_green_report">
+        <item>Your main Aura Color is YELLOW-GREEN and is strongly associated with the 3rd chakra or Solar Plexus Chakra. capppyg</item>
+        <item>    </item>
+        <item>YELLOW-GREENS is a mixture between YELLOW and GREEN and is associated with the 3rd and 4th chakra. You are a very creative, playful person with the ability to be a great entertainer and radiate optimism. You have a warm charm and at most times easy going. </item>
+        <item>    </item>
+        <item>    </item>
+        <item>Physical Areas This Energy affects: cappp</item>
+        <item>Stomach, vegetative nerve system, heart and blood, circulation</item>
+        <item>    </item>
+        <item>Physical Dysfunctions: cappp</item>
+        <item>heart conditions, asthma, lung &amp; breast cancers, thoracic spine, pneumonia, upper back, shoulder problems</item>
+        <item>    </item>
+        <item>    </item>
+        <item>STATEMENTS THAT FIT THIS COLOR TYP:</item>
+        <item>I’m very social, communicative and natural caiii </item>
+        <item>I love animals especially dogs, horses and cats. caiii </item>
+        <item>Intimacy means love, affection and sharing. caiii </item>
+        <item>I need to have fun, play, exercise or be around people. caiii</item>
+        <item>I look younger then my real age. caiii</item>
+        <item>    </item>
+        <item>    </item>
+        <item>Qualities When In Balance: cappp</item>
+        <item>If YELLOW-GREEN shows up as one color in your aura field you might be a true YELLOW-GREEN personality.</item>
+        <item>    </item>
+        <item>Yellow-Green’s are outgoing, happy and communicative if not chatty. You are very original since mental activity and clarity is mixed with spontaneous energy; your enthusiasm is catching. You have a great sense of humor, a talent for organization; studying and love for traveling and good learning abilities.</item>
+        <item>    </item>
+        <item>You are very creative. At times you can be very talkative and communicative. You love to work with your hands and enjoy doing such things as writing, painting, repairing things or sculpting.</item>
+        <item> </item>
+        <item>You know how to enjoy mental-creative and physical reality with all its variations. You mind works quick, abstract and analytical themes are interesting and easy to understand for you and can jump from one step to another without being concerned with the steps between.</item>
+        <item>    </item>
+        <item>You have a need for relationships. You can be sensitive and caring in relationships. You prefer a partner whom you can laugh with, support and take care of him/her, and who accepts your need for freedom.</item>
+        <item>    </item>
+        <item>You love to flirt since you are emotionally charged by the excitement of meeting new and different people. For these addictive, color personalities the other sex is a way of connecting with life and also compensating for their own energy deficiencies. You prefer being in a light, playful, intimate relationship without the emotional baggage of heavy commitments and lingering problems.</item>
+        <item>    </item>
+        <item>    </item>
+        <item>Qualities When Unbalanced: cappp</item>
+        <item>Dark/Muddy YELLOW-GREEN can indicate stress; physical exhaustion; a tendency to worry or an obsession with career.</item>
+        <item>    </item>
+        <item>But you can be responsible but you hate commitment. Dark and muddy colors indicate a nervous temperament and can also indicate stress; physical exhaustion; a tendency to worry or an obsession with your career. You need to understand the differences between being independent, but loving and committed, and using a relationship as a substitute for your own problems.</item>
+        <item>    </item>
+        <item>Out-of-power you will be drawn toward negative dependencies such as drugs, alcohol, cigarettes, caffeine, candies, overeating or unrealistic philosophies.  Addictions can become futile to your health and well being.</item>
+        <item>    </item>
+        <item>You can talk for hours since it’s therapeutic for you. You tend to talk about your own experiences much more than about other peoples concerns. But you also need a lot of time for yourselves. Relaxing at a peaceful lake, in a wonderful garden or in your own home is very recharging and fills your life energy battery. You love to just be with close friends, talk about old times, take it easy, relax and enjoy life.</item>
+        <item>    </item>
+        <item>    </item>
+        <item>How to achieve AuraFit Balance: cappp</item>
+        <item>Balance yourself with INDIGO colors, e.g. meditate, practice yoga and eat violet food. Learn to express your powerful energy in a creative way or try wearing INDIGO crystals and INDIGO cloths for a while.</item>
+        <item>    </item>
+        <item>Activities like bicycling, tennis, dancing, jogging or other long-muscle exercises are recommended and should be practiced daily.   Active meditations such as Dynamic Meditation, Qui-Gong or Tai Chi have positive effects because they focus the mind and connect the physical body with the universal energy flow.</item>
+        <item>    </item>
+        <item>If this all doesn’t help you should reconsider your feelings. What there something that offended or blocked your emotions in the past? When did negative feeling submerged? Finding the source starts any healing process, you need to look inside and forgive yourself and possible others. </item>
+        <item>    </item>
+        <item>    </item>
+        <item>Affirmation: capppyg</item>
+        <item>\“I love and accept myself exactly the way I am.\” capppyg</item>
+    </string-array>
+
+    <string-array name="green_report">
+        <item>Your main Aura Color is GREEN and is strongly associated with the 4th chakra or Heart Chakra. capppg</item>
+        <item>    </item>
+        <item>GREEN is the color associated with the 4th chakra or heart chakra.</item>
+        <item>You love to communicate, are very connected with nature, have a great social life and a big heart for all animals. You have a green thumb, fantastic (self) healing qualities and often teach. Strong endurance, balance, big life changes, growth periods, perseverance, self-esteem, self-love and personal evolution are all characteristics of a green aura. </item>
+        <item>    </item>
+        <item>    </item>
+        <item>Physical Areas This Energy affects: cappp</item>
+        <item>Heart, lung, circulation, thoracic spine</item>
+        <item>    </item>
+        <item>Physical dysfunctions: cappp</item>
+        <item>heart conditions, asthma, lung &amp; breast, cancer, pneumonia, cold hands and feet, upper back &amp; shoulder problems </item>
+        <item>    </item>
+        <item>    </item>
+        <item>STATEMENTS THAT FIT THIS COLOR TYP:</item>
+        <item>\"I’m open, quick-minded and communicative.\" caiii </item>
+        <item>\"I need peace, harmony and balance in my life.\" caiii </item>
+        <item>\"Relationships and friends are most important in my life.\" caiii </item>
+        <item>\"I talk for hours about many different subjects.\" caiii </item>
+        <item>\"I’m very social, communicative and natural.\" caiii</item>
+        <item>    </item>
+        <item>    </item>
+        <item>Qualities When In Balance: cappp</item>
+        <item>GREENs are balanced, harmonious, and peaceful personalities. You need harmony in your life and prefer to live in a natural environment. You perceive life through their heart. Your primary motivations are contentment and harmony. </item>
+        <item>    </item>
+        <item>You appear peaceful and harmonious; emanates warmth and understanding and often make others feel comfortable.</item>
+        <item>    </item>
+        <item>You want to feel happy and content with your live. You understand clearly that the higher you set your goals the more difficult thry will be to achieve. You also have an inner understanding of the natural cycles and laws of life. You believe that to live as a human being is life’s most wonderful gift.</item>
+        <item>    </item>
+        <item>Green personalities are very talkative and communicative. A good "chat" is therapeutic and allows you to release and express your deep feelings and concerns. You are natural in your interactions with others. You will talk with anyone without holding back or offering any resistance. You are open and forthcoming to the point where some people perceive you as insensitive or overwhelming.</item>
+        <item>    </item>
+        <item>On the other hand, it can be difficult at times to develop deep relationships. Shallow conversation and a general sense of openness does not necessarily guarantee a deep interpersonal connection or meaningful friendship. However, if you are willing to give and support others you can relate with almost every personality type. You just love to be together with family or close friends. </item>
+        <item>    </item>
+        <item>    </item>
+        <item>Qualities When Unbalanced: cappp</item>
+        <item>Dark or muddy GREEN shows a closed heart, repressed feelings or a highly emotional state. Dark/Muddy green colors show an emotionally stressed out person, irritated or angry. Sometimes this can be an indication of a growth crisis. </item>
+        <item>You prefer to be with their animals or alone with nature to experience a feeling of balance. You behave this way because you are afraid to confront yourselves with an even greater adventure: TRUST. You might have had bad experiences in the past so trust is an issue for you. Emotions hurt you on a physical and spiritual level so you prefer to retract from deep personal connections. You are afraid to open your heart and experience the power of love and affection. You need to understand that learning only takes place by confronting and dealing with life situations or problems. </item>
+        <item>    </item>
+        <item>    </item>
+        <item>How to achieve AuraFit Balance: cappp</item>
+        <item>GREEN is the center color, you have many ups and downs and therefore you need to balance from both ends, meaning you can use both RED or VIOLET colors, e.g. work in the garden, walk in the woods, eat green food or meditate, paint and sit close to a lake or ocean. </item>
+        <item>    </item>
+        <item>Learn to express your powerful energy in a creative way, walking in nature or try wearing green crystals and violet cloths for a while and switch them; you have to learn to trust your inside again! </item>
+        <item>    </item>
+        <item>    </item>
+        <item>Affirmation: capppg</item>
+        <item>\“I am a being of divine love radiating unconditional love. I love &amp; accept myself exactly the way I am\” capppg</item>
+    </string-array>
+
+    <string-array name="green_blue_report">
+        <item>Your main Aura Color is GREEN-BLUE and is associated with both the 4th and 5th chakra. capppgb</item>
+        <item>    </item>
+        <item>GREEN-BLUE is a mixture between GREEN and BLUE and is associated with the 4th and 5th chakras.</item>
+        <item>You love to communicate, you are quick minded and you are strong ambitious planers. You are a very good organized and the heart center of any office. You love to take care of others and will be a very strong team player.</item>
+        <item>    </item>
+        <item>    </item>
+        <item>Physical Areas This Energy affects: cappp</item>
+        <item>Heart, lung, throat, throat, neck region, whole nervous system.</item>
+        <item>    </item>
+        <item>    </item>
+        <item>Physical Disfunctions: cappp</item>
+        <item>heart conditions, asthma, lung &amp; breast, cancers, thoracic spine, pneumonia, teeth, ear or eye issues as well as upper back and shoulder issues</item>
+        <item>    </item>
+        <item>    </item>
+        <item>STATEMENTS THAT FIT THIS COLOR TYP:</item>
+        <item>\"I love to learn and to be intellectually stimulated all the time.\" caiii</item>
+        <item>\"I have a strong personality, perseverance and self-esteem.\" caiii</item>
+        <item>\"I’m very peaceful, caring and supportive.\" caiii</item>
+        <item>\"I’m conservative in my beliefs and behavior.\" caiii</item>
+        <item>\"I rather develop plans and ideas than do the actual work.\" caiii</item>
+        <item>   </item>
+        <item>   </item>
+        <item>Qualities When In Balance: cappp</item>
+        <item>GREEN-BLUE is a very helpful, social person with a big heart. You are peaceful, harmonious and emanate warmth and understanding and make others feel comfortable. You need harmony in your life and prefer to live in a natural environment. You also have a powerful connection with nature and perceive life through your heart. Your primary motivations are contentment and harmony.</item>
+        <item>    </item>
+        <item>DEEP-GREEN personalities are bright, intelligent and vigorous. You are communicative, organized, ambitious and love to surround yourselves with people, nature and material wealth and luxury. </item>
+        <item>    </item>
+        <item>You integrate almost all the qualities of GREEN personalities. The primary difference is you are more intense and direct in everything you do. As a DEEP-GREENs you are a  communicator like any GREEN but do so with more power and intensity. All GREEN personalities are mental and quick-minded, but DEEP-GREENs are extremely fast in their thinking, more detailed and more dynamic. You as a DEEP-GREEN personality possess the ambition to achieve your goal if you can keep your feelings positive.</item>
+        <item>    </item>
+        <item>You enjoy being sexually active. For you sex means aliveness, love and affection. You have a natural attitude towards a relationship because you understand the concepts of love and partnership. </item>
+        <item>    </item>
+        <item>Your financial attention is not on making money or achieving goals, but on having money and living a prosperous life. You solve problems not only because you have friends or know the right people to fix things, but also because you have good analytical, organizing and planning abilities. You come up with detailed and clever ideas since you possess a natural intuition, which allows you to be quick-minded and innovative. </item>
+        <item>    </item>
+        <item>    </item>
+        <item>Qualities When Unbalanced: cappp</item>
+        <item>GREEN-BLUE can show an emotionally stressed out, irritated or angry person. You might take things too personal, you need to learn to withdraw, since you like to know a lot about others people life and give advice to fast and often unquestioned. Sometimes this color could be an indication of depression or a feeling of entrapment.</item>
+        <item>    </item>
+        <item>You have a need for love and live an emotional way of life. You can talk about every subject for hours. But when you think you can’t communicate or express yourself with your partner or friends you feel your world crumble and have a hard time to get back in tracks. You need harmonious relationships to feel accepted and go on in life.</item>
+        <item>    </item>
+        <item>You are not fond of working very hard whether physically or mentally. You often wait for others to show up, accept you ideas and then create them into physical reality. In most cases you do not have the ambition or stamina to create and finish your own ideas and plans.</item>
+        <item>    </item>
+        <item>    </item>
+        <item>How to achieve AuraFit Balance: cappp</item>
+        <item>Balance yourself with YELLOW-ORANGE colors, e.g. write a book, do yoga, eat yellow food or try some lemon or orange scent. Learn to express your powerful energy in a creative way, go back to nature or try wearing yellow-orange crystals and yellow-orange cloths for a while. </item>
+        <item> </item>
+        <item>Active meditations such as Dynamic Meditation, Qui-Gong or Tai Chi have positive effects because you focus the mind and connect the physical body with the universal energy flow. GREEN-BLUEs who are healthy and in-power need a fulfilling sexual life to be connected with their abundant energy and enjoy all aspects of life. </item>
+        <item>    </item>
+        <item>    </item>
+        <item>Affirmation: capppgb</item>
+        <item>“It is now safe for me to express my feelings” capiigb</item>
+    </string-array>
+
+    <string-array name="blue_report">
+        <item>Your main Aura Color is BLUE and is strongly associated with the 5th chakra or Throat Chakra. capppb</item>
+        <item>    </item>
+        <item>BLUE is associated with the 5th chakra, the throat chakra.</item>
+        <item>Very sensitive, powerful true communicators who have a strong ability as peacemaker. You probably feel a desire to be of service and are often drawn to a humanitarian job or in the healing profession.</item>
+        <item>    </item>
+        <item>    </item>
+        <item>Physical Areas This Energy affects: cappp</item>
+        <item>Heart, lung, circulation, cold hands and feet, whole nervous system</item>
+        <item> </item>
+        <item>Organ or Body Part: Throat, Thyroid, Trachea, neck region cappp</item>
+        <item> </item>
+        <item>Physical dysfunctions: cappp</item>
+        <item>bronchitis, hoarseness, chronic sore throats, mouth ulcers, gum difficulties, chronic neck pain, laryngitis, swollen glands and joint problems</item>
+        <item>    </item>
+        <item>    </item>
+        <item>STATEMENTS THAT FIT THIS COLOR TYP:</item>
+        <item>\"I want a healthy, loving and caring relationship.\" caiii</item>
+        <item>\"I’m more concerned about others than about myself.\" caiii</item>
+        <item>\"I have a slow metabolism with cold hand and feet.\" caiii</item>
+        <item>\"I’m very social and I love to be around people all the time.\" caiii</item>
+        <item>\"I’m very peaceful, caring and supportive.\" caiii</item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When In Balance: cappp</item>
+        <item>BLUEs have an inner certainty, self-confidence and an internal connection with the Divine manifesting in your outward personality; calm focal point, radiating peace, faith and hopefulness.</item>
+        <item>    </item>
+        <item>The caring person! Blue people are usually reserved, introverted and conservative. You are very trustful, observant and notice small details. Caring, sensitive, loving, loyal, compassionate, peaceful, desire to help and support others, nurturing, very sensitive, deep inner feelings, peaceful, spiritual love, grace, needs to feel appreciated, honest, often devoted, patience, silent, forgiving, strong spiritual belief. Deeper clear blue indicates teaching ability; can communicate ideas and concepts easily.</item>
+        <item>    </item>
+        <item>It’s important for you to live in a harmonious relationship. You want to be loved and appreciated. You are a wonderful mate because you love to take care of and support your loved ones. You will do anything to create a happy and harmonious family life. You often expect your partner to return your love or be as much supportive and caring. You need to understand that other color personality characters might not understand the strong emotional depth you possess.</item>
+        <item>    </item>
+        <item>You will thrive in caretaking jobs or a supportive occupation. Money is important since it provides a sense of security to you so if you have financial troubles you should find a good bookkeeper. </item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When Unbalanced: cappp</item>
+        <item>An out of power BLUE may have problems setting boundaries and saying “NO”, you need to overcome fears and become more expressive. You have a tendency to hold feelings within which can make you sick on an emotional level. You have high expectations and usually no one can fulfill them. You can take matters personally and excuse yourselves a thousand times, even if you have not been the responsible part.</item>
+        <item>    </item>
+        <item>Dark/Muddy blue can show insecurity and unhappiness; your energy is low! Maybe you are just hungry? If this color is persistent you might want your blood sugar level checked. Weight issues can be a problem with this energy since you try to protect your sensitive energy. Love or better not getting enough love can result in over-eating! Interaction with a conservative, supportive family or friend is important to you. Sensitivity and love is much more important to you than sex. </item>
+        <item>    </item>
+        <item>    </item>
+        <item>How to achieve AuraFit Balance: cappp</item>
+        <item>Balance yourself with ORANGE colors, do some pottery or give somebody a massage and try to eat some orange food. Learn to express your powerful energy to achieve/succeed; for courage and the ability to communicate with feeling and a sense of fun.</item>
+        <item> </item>
+        <item>Meditation is important and helpful to reach your inner center and spiritual growth. Listening to soft music, walk in nature, or create a balanced environment you feel balanced and safe.</item>
+        <item>    </item>
+        <item>Be careful to not overdo the Orange colors since this is a strong energy and mostly needed to give you a certain push when you feel depressed. You can start by wearing something orange while Walking, bicycling, picnicking, or swimming.</item>
+        <item> </item>
+        <item>Try to find a fun and relaxing sport to jump start you endorphins – yoga, dancing or just walk the dog of your neighbor can help you.</item>
+        <item>    </item>
+        <item>    </item>
+        <item>Affirmation: capppb</item>
+        <item>“It is now safe for me to express my feelings” capiib</item>
+
+    </string-array>
+
+    <string-array name="indigo_report">
+        <item>Your main Aura Color is INDIGO and is strongly associated with the 6th chakra or 3rd Eye Chakra. capppi</item>
+        <item>    </item>
+        <item>INDIGO is associated with the 5th and 6th chakra. It’s is a cool color that indicates a sense of peacefulness and calm. It shows communicating abilities and a love of conversation. Blue is the color associated with the fifth chakra, the throat chakra. You show a strong self-confidence and an internal connection with the Divine that manifests in your outward personality. You are a calm focal point in any company, radiating peace, faith and hopefulness. </item>
+        <item> </item>
+        <item> </item>
+        <item>Physical Areas This Energy affects: cappp</item>
+        <item>Brain, eyes, ears, spin, circulation, whole nervous system</item>
+        <item>    </item>
+        <item>Physical Dysfunctions: cappp</item>
+        <item>brain tumors, strokes, blindness, deafness, seizures, learning disabilities, spinal dysfunctions, panic, depression </item>
+        <item> </item>
+        <item> </item>
+        <item>STATEMENTS THAT FIT THIS COLOR TYP:</item>
+        <item>\"Trust, loyalty and honesty are very important.\" caiii</item>
+        <item>\"Life is love and compassion.\" caiii</item>
+        <item>\"I follow my intuition and my inner guidance.\" caiii</item>
+        <item>\"I feel artistic, creative and spiritually advanced. I’m soft and sensitive yet aware and independent.\" caiii</item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When In Balance: cappp</item>
+        <item>INDIGOS have a deep desire to be of service.</item>
+        <item> </item>
+        <item>Your inner spiritual life is very important and you have strong artistic and aesthetic sensibility. You experience life through your deep inner feelings. You are a calm individual who is connected your inner knowing, intuition or higher mind.</item>
+        <item> </item>
+        <item>Your life long search for higher truth and consciousness allows you to radiate an authenticity and clarity, which is not found in other color personalities. Centered Indigos have the energy and power to guide humanity into an age of awareness and true spirituality. In the past, Indigos were often found in religious groups or organizations.</item>
+        <item> </item>
+        <item>Society and Indigos are not a good match. In power Indigos do not follow societies rules or regulations. You have an inner knowing which you feel you have to follow. Indigos function on truth and spirituality, not on false ideals or political ambitions.  </item>
+        <item> </item>
+        <item>You have an inner need to express your spirituality or religiousness. You are considered to be very deep in your feelings and perceptions about life. You also seem to be born as conscious beings and as a child you knew what you wanted and how to act.  Indigos cannot be told what to do, think, feel or what the truth is. Your inner knowing and guidance gives you all the information you need. You just know the truth within.</item>
+        <item> </item>
+        <item>Indigos need to be with partners who can understand their advanced, spiritual way of thinking. You are gentle and committed to your partner who is also your best friend and companion. Indigos generally integrate both female and male qualities and therefore often have androgynous appearances. Male Indigos, with their extremely sensitive bodies and nervous systems, often have female characteristics. But Indigos are also great lovers. Once you feel safe and are off guard you can be passionate and full of deep love.</item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When Unbalanced: cappp</item>
+        <item>INDIGO can show a lack of energy and foster emotions of loneliness, depression and melancholy. You could feel isolated and abandoned. Dark muddy colors can indicate inhibited thinking and a need to withdraw and heal. Your communications are not easily understood and problems can arise one after the other. </item>
+        <item> </item>
+        <item>Out of power Indigos can become frightened and disoriented. You lose touch with your inner knowing and feelings and then can’t quite understand life anymore. You could turn to drugs and alcohol to hide from your confusion and quiet your inner voices. The current state of the planet is not what you envision and therefore you tend to be frustrated and confused. You are plagued with questions such as: \"How can humanity be so insensitive and unspiritual?\" </item>
+        <item> </item>
+        <item>When unbalanced, you might feel isolated, misunderstood, as if you were from another planet. Your sensitive physical and emotional system causes you to withdraw. You need to connect with your deep feelings and your inner knowledge. If you trust your inner voice again you will gain back your power and will understand life’s larger plan.</item>
+        <item> </item>
+        <item> </item>
+        <item>How to achieve AuraFit Balance: cappp</item>
+        <item>Balance yourself with ORANGE or YELLOW colors, do some pottery or give somebody a massage and try to eat some yellow and orange food or try lemon or orange scents. Learn to express your powerful energy to achieve/succeed; for courage and the ability to communicate with feeling and a sense of fun. You need a partner to fully understand love and commitment, maybe its time to find a Yellow sunny one to share and achieve balance.</item>
+        <item>    </item>
+        <item>    </item>
+        <item>Affirmation: capppi</item>
+        <item>\“My spiritual vision is clear and I see the divine light in everything.\” capppi</item>
+    </string-array>
+
+    <string-array name="violet_report">
+        <item>Your main Aura Color is VIOLET and is strongly associated with the 6th chakra or 3rd Eye Chakra. capppv</item>
+        <item> </item>
+        <item>VIOLET is the color associated with the 6th chakra, often called the third eye. You have an intuitive perception and are able to make intuitive connections. You are very creative and your sensitivity enhances your subtle and artistic imagination. Your ability to transfer energy will give you spiritual healing forces you should use to help others. </item>
+        <item> </item>
+        <item> </item>
+        <item>Physical Areas This Energy affects: cappp</item>
+        <item>Brain, head, eyes, whole nervous system</item>
+        <item> </item>
+        <item>Physical Location: cappp</item>
+        <item>Top of head </item>
+        <item> </item>
+        <item> </item>
+        <item>STATEMENTS THAT FIT THIS COLOR TYP:</item>
+        <item>"I’m a visionary, intuitive and innovative thinker."  caiii</item>
+        <item>"I feel physical and powerful yet sensitive and intuitive."  caiii</item>
+        <item>"I want to be famous or do something important in my life." caiii</item>
+        <item>"Often I am scattered or involved in too many projects at once." caiii</item>
+        <item>"I want to inspire and help improve the planet or humanity." caiii</item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When In Balance: cappp</item>
+        <item>VIOLETS have a great spiritual insight with devotion and have a beneficial, healing effect on others. You may be able to sense the power emanating; strong intuitive ability and can receive impressions and visions with ease; idealistic and visionary.</item>
+        <item> </item>
+        <item>Violets are dynamic, charismatic, visionary and powerful personalities. Their task or mission in life is to lead and inspire mankind and guide them into a new age of prosperity and wholeness. Most Violets have an inner and driving urge to do something important with their life.</item>
+        <item>As a Violet you are visionary, futuristic, and have high ideals and hopes for the future. You can see and recognize the "bigger picture" of any situation. You can literally see future incidents before your inner eyes. You mainly perceive life through your "third eye" or "inner vision.</item>
+        <item> </item>
+        <item>Your motivation is to express and live your vision through artistic and innovative creativeness. The more you are able to fulfill your inner vision, the more content and happy you will be. You experience life as magic and love to be in a constant state of transformation and change.</item>
+        <item> </item>
+        <item>Because Violet integrates Blue and Red qualities it is important for you to accept and live various aspects of both. Those aspects and traits would include sensitivity, intuition, caring, love, compassion and physical activity, power, passion and strength. You need to release your physical power through sports or other physical exercises. Because of your strong mind, relaxation in action is often a good outlet for letting go physically and mentally.</item>
+        <item> </item>
+        <item>All Violets love music, you feel the power and the vibration deep within. Most of the time, you prefer energizing, quiet and harmonious music. Loud, destructive and negative can irritate and frustrate you. For you, music is the universal language so its no surprise that many Violets play an instrument or sing, even many famous singers are found in the music industry. For a Violet, life is magic. </item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When Unbalanced: cappp</item>
+        <item>VIOLETS can be scattered and usually have too many projects. Since you feel you are somehow important; you may be abrupt and don’t communicate emotionally. Deep violet color can indicate inner nervousness or tension or withdrawal. You might feel physically tired, have difficulties meeting the challenges of daily life and need to rest often.</item>
+        <item> </item>
+        <item>The largest challenge for you is to trust your intuition and inner vision. Your strong self-criticism and tendency toward perfection often leaves you with feelings of guilt and unworthiness.</item>
+        <item> </item>
+        <item>Part of you always thinks you could do virtually anything better, faster and more efficiently. Even after completing a successful project you usually find small mistakes or details, which others aren’t able to see. This normally creates feelings of remorse.</item>
+        <item> </item>
+        <item>Out-of-power you can be arrogant, pompous and narcissistic. You think you are better than other people. You might not trust your visions and ideas. You see too many possibilities and therefore become scattered, bewildered and confused. A common problem for you is taking on too many projects at once and then trying to achieve the impossible. Being unrealistic, "too far out there," and not in touch with reality, can cause you to become frustrated and powerless.</item>
+        <item> </item>
+        <item>While partnerships are important, they are not the first priority for you. You need a partner who can understand your visions, travel in similar directions and provide inspiration. </item>
+        <item> </item>
+        <item> </item>
+        <item>How to achieve AuraFit Balance: cappp</item>
+        <item>Balance yourself with bright YELLOW colors, e.g. write a book, do yoga, eat yellow food and try lemon scents. Learn to express your powerful energy in a creative way or try wearing yellow crystals and yellow cloths for a while.</item>
+        <item> </item>
+        <item>It is important for you to have time for yourselves to focus and meditate. You need to confront yourselves with your guilt and your unworthiness. If you understand your vision and are connected to the universe, you will let go of your guilt and focus on your wonderful and promising future.</item>
+        <item>    </item>
+        <item>    </item>
+        <item>Affirmation: capppv</item>
+        <item>\“My third eye intuits inner knowledge.\” capppv</item>
+    </string-array>
+
+    <string-array name="lavender_report">
+        <item>Your main Aura Color is LAVENDER and is strongly associated with the 7th chakra or Head Chakra. capppl</item>
+        <item> </item>
+        <item>LAVENDER is associated with the 6th and 7th chakra. These are mystical creatures, love to daydream and create their own fantasy world and they really see the world in different eyes. They are very intuitive, highly creative with strong artistic abilities. </item>
+        <item> </item>
+        <item> </item>
+        <item>Physical Areas This Energy affects: cappp</item>
+        <item>Brain, head, spin, whole nervous system</item>
+        <item> </item>
+        <item>Physical Dysfunctions: cappp</item>
+        <item>brain tumors, strokes, blindness, deafness, seizures, learning disabilities, spinal dysfunctions, panic, depression</item>
+        <item> </item>
+        <item> </item>
+        <item>STATEMENTS THAT FIT THIS COLOR TYP:</item>
+        <item>\"I’m an imaginative, inspirational and artistic thinker.\" caiii</item>
+        <item>\"My physical body is very fragile and sensitive.\" caiii</item>
+        <item>\"I believe in dreams, angels, spirits, higher dimensions of life.\" caiii</item>
+        <item>\"I don’t like to focus and concentrate for long periods of time.\" caiii</item>
+        <item>\"I live by my feelings and intuition, not my rational mind.\" caiii</item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When In Balance: cappp</item>
+        <item>LAVENDERs have great spiritual powers and therefore a healing effect on others. You are very sensitive, creative and a very good team player. You are introverted with artistic abilities, which you use intuitively. You are mentally free to explore new possibilities, concepts and realities.  Your minds function without any limitations.</item>
+        <item> </item>
+        <item>When you feel balanced you are a wonderful storyteller, writer or fantastic artist. You have the talent to describe and visualize worlds of magic and mystical places.</item>
+        <item> </item>
+        <item>You can go beyond the limited, harsh reality into a world filled with possibilities. You need to be free without physical, emotional or mental limitations. You need to fly with the wind, to be able to change into any direction at your own will. You have the ability to inspire and stimulate others to produce new, futuristic, sometimes unreal products and ideas.</item>
+        <item> </item>
+        <item>You have no interest or plans for physical activities such as hard work or even sports. Staying in your mental, intuitive fantasyland is often enough by itself.</item>
+        <item> </item>
+        <item>On one hand, you are well liked by society because you are stimulating, creative and filled with wonder and imagination. You are especially accepted and appreciated if you find yourselves in artistic or performing professions. On the other hand, you are sometimes irresponsible, unreliable and difficult to be around.</item>
+        <item> </item>
+        <item>If you find enough freedom and support in a relationship you are a loving and creative partner. You love the playfulness of Yellow personalities. Greens and Deep-Greens enjoy communicating with you and like your mental activity and vivid imagination. Blues and Lavenders generally make a good match but occasionally lack the direction and strength to make a relationship work. Violets and Crystals have a lot in common with the imaginative and spiritual oriented Lavender personality.</item>
+        <item> </item>
+        <item>As a Lavender personality you don’t like positions of leadership or occupations, which involve demanding, hard and stressful work. You are pleasant and friendly and work best in low stress, quiet environments. You don’t want a regular, office jobs or an analytical, mental occupation. You should find activities where you can integrate your creative imagination and fantasies.</item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When Unbalanced: cappp</item>
+        <item>You can be scattered and forget things easily. You tend to have an inner nervousness or tension. Physically you are fragile and often tired, stay away from drugs since they affect you very strong in the wrong way. Acupuncture and other alternative healing techniques are much more sufficient for you.</item>
+        <item> </item>
+        <item>You probably drove your parents /teachers nuts as a kid when you escaped in your daydreaming and fantasy world. As a result of spending most of their time living in another world, it is difficult for you to describe your experiences and imaginations. Unbalanced Lavenders cannot bring back their dreams and share them with their friends. You can easily be forgetful and scattered.  Your visions and ideas seem unrealistic and illusionary to most other people. </item>
+        <item> </item>
+        <item>You might at times try to adjust to societies rules and regulations. But you must understand that by adjusting to what you consider to be societies illusion, and not following your own intuition and guidance, will leave you with feelings of unhappiness and sadness.</item>
+        <item> </item>
+        <item> </item>
+        <item>How to achieve AuraFit Balance: cappp</item>
+        <item>Balance yourself with bright YELLOW colors, e.g. write a book, do yoga, eat yellow food and try lemon scents. Learn to express your powerful energy in a creative way or try wearing yellow crystals and yellow cloths for a while.</item>
+        <item>    </item>
+        <item>Look for a strong and understanding partner to share your dreams and achieve inner balance.</item>
+        <item>    </item>
+        <item>    </item>
+        <item>Affirmation: capppl</item>
+        <item>\“My third eye intuits inner knowledge\” capppl</item>
+    </string-array>
+
+    <string-array name="white_report">
+        <item>Your main Aura Color is WHITE and is strongly associated with the 7th chakra or HEAD Chakra. capppw</item>
+        <item> </item>
+        <item>WHITE is the color associated with the 7th chakra or crown chakra.</item>
+        <item> </item>
+        <item>It is a transcendent, spiritual and higher dimensional color. You are quietly enlightened and connected with spiritual force. White shows meditative practice and spiritual discipline that has been followed for many years. </item>
+        <item> </item>
+        <item> </item>
+        <item>Physical Areas This Energy affects: cappp</item>
+        <item>Middle of the head, cranium, brain, skeletal system and skin</item>
+        <item> </item>
+        <item>Physical Disfunctions: cappp</item>
+        <item>depression, chronic exhaustion not associated with physical ailments, sensitivity to light, sound and the environment </item>
+        <item> </item>
+        <item> </item>
+        <item>STATEMENTS THAT FIT THIS COLOR TYP:</item>
+        <item>"I have a transcendent and radiant appearance." caiii</item>
+        <item>"I’m very sensitive, vulnerable and easily overwhelmed." caiii</item>
+        <item>"I can tune into other dimensions of existence or reality." caiii</item>
+        <item>"Meditation, spirituality, awareness, healing are priorities." caiii</item>
+        <item>"I need to stay in a healing and transcendent state of mind." caiii</item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When In Balance: cappp</item>
+        <item>White in this area indicates the abundance of energy that you have at your disposal. This energy is of a very high level and can be directed wherever it is needed. You have a deep connection to the Divine energy and a committed spiritual practice. This is the aura of meditation and enlightenment.</item>
+        <item> </item>
+        <item>You are exceptionally gifted. How to use your gifts wisely is your life lesson. You are bestowed with sensitivity, intuitiveness, psychic ability and practicality. You can use your spiritual understanding in very practical ways.</item>
+        <item> </item>
+        <item>Because can relate to many people you are interested in teaching, mentoring or counseling careers. You have immense versatility and adaptability and are capable of getting the most out of virtually every opportunity in life. Your high intellect enables you to make the right decision quickly and follow through with action.</item>
+        <item> </item>
+        <item>People who have predominant white are seen as very attractive. They attract many admirers. But you are very discerning and choose your friends carefully and your lovers very carefully.</item>
+        <item> </item>
+        <item>You tend to be well blessed in looks, personality and talent and as such are seen as incredibly lucky. Success seems to come easily to you.</item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When Unbalanced: cappp</item>
+        <item>WHITE can appear with other colors and can indicate energy blockages and a need to deal with denied or hidden emotional issues. Unbalanced clusters of white can show energy blocks and pain. If the rest of the aura is vibrating with other colors this energy cluster can mean that there is tension or pain in a certain area. Around the head it can mean headache or in simplest cases a spacey feeling. It can also mean you opened your heart too wide and therefore do not have protection from the demands of others.</item>
+        <item> </item>
+        <item>Depending on your personal and spiritual beliefs, a white aura can hold far greater meaning. Often, it is assumed to represent a connection to divinity or a person closely guarded by angels. For example, individuals who miraculously survive catastrophic situations are said to have had a white aura around them, even if only temporary.</item>
+        <item> </item>
+        <item>White in a younger person can indicate sensitivity but also that they seem to be scattered and forgetful, often too stressed and not enough physical connection to the body. You need to take care of the physical body and reconnect with all chakras, especially with the lower chakras. Some white people need a wheelchair or other aid to move at all so all their energy is circled around the head.</item>
+        <item> </item>
+        <item> </item>
+        <item>How to achieve AuraFit Balance: cappp</item>
+        <item>Balance yourself with GREEN colors, e.g. work in the garden, walk in the woods and try to eat green food (like green leaved salad or zucchini). Learn to express your powerful energy in a creative way, go back to nature or try wearing green crystals and green cloths for a while.</item>
+        <item> </item>
+        <item>White is of course a spectrum color, so you can counteract too much White with GREEN, the color of the center, or sometimes also with the colors RED or use PURPLE colors as compensation, e.g. work in the garden, walk in the woods, eat more green foods such as salads or try meditation, paint or walk near a lake or ocean. Learn to express your creative energy by going back to nature, work with or wear green-colored (semi) precious stones and purple cloths for a while. </item>
+        <item>    </item>
+        <item>    </item>
+        <item>Affirmation: capppw</item>
+        <item>\“I choose to charge the energy around me with my positive vibrations. This positive, healing energy surrounds everything.\” capppw</item>
+    </string-array>
+
+    <string-array name="blue_light_report">
+        <item>Your main Aura Color is TURQUOISE and is associated with the 5th chakra or Throat Chakra. capppbl</item>
+        <item> </item>
+        <item>TURQUOISE indicates that you speak from the heart with inner self-confidence and security. Your words are peaceful and healing. You are caring, sensitive and loving, helpful, compassionate, desire to service and support others. </item>
+        <item> </item>
+        <item> </item>
+        <item>Physical Areas This Energy affects: cappp</item>
+        <item>Head, lung, circulation, thyroid, whole nervous system</item>
+        <item> </item>
+        <item>Physical Dysfunctions: cappp</item>
+        <item>sore throat, mouth ulcers, scoliosis, swollen glands, thyroid dysfunctions, laryngitis, voice problems, gum or tooth problems</item>
+        <item> </item>
+        <item> </item>
+        <item>STATEMENTS THAT FIT THIS COLOR TYP:</item>
+        <item>"Love, God and spirituality are important to me." caiii</item>
+        <item>"I’m very peaceful, caring and supportive." caiii</item>
+        <item>"I’m not very ambitious or goal-oriented." caiii</item>
+        <item>"I have problems setting boundaries or saying no." caiii</item>
+        <item>"I’m a born caretaker, advisor, counselor or healer." caiii</item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When In Balance: cappp</item>
+        <item>You show an inner certainty, self-confidence and an internal connection with the Divine manifesting in your outward personality; calm focal point, radiating peace, faith and hopefulness. Deeper clear blue indicates teaching ability; can communicate ideas and concepts easily.</item>
+        <item> </item>
+        <item>You are usually reserved, introverted and conservative. But you are also very trustful, observant and notice small details.</item>
+        <item> </item>
+        <item>You have an inner knowledge and you feel and know what is right without needing facts. The moment you become quiet inside, you will recognize or hear an inner voice or guidance, which will tell you what to do.  You can easily tune into other people and feel precisely what is going on. Many people enjoy being with you because you transmit love, acceptance and forgiveness.</item>
+        <item> </item>
+        <item>You cry easily and primarily release their emotions, joy, sorrow, sadness and happiness, through tears. The other color personalities often have problems understanding your intense emotionality. However, this emotional depth gives you the ability to be warm, sympathetic and protective.</item>
+        <item> </item>
+        <item>You need to recognize and accept that you are loved. The most important aspect of your life is living in healthy, harmonious relationships. You want to be loved and appreciated. Because of your sensitivity and your depth of feelings you can easily be hurt. You want to feel loved and accepted and will often do anything to receive a small amount of attention or affection.</item>
+        <item> </item>
+        <item>You don’t like physical activity or work. You feel this physical world often seems too loud, brutal and harsh. You prefer to reside in your own emotional world. You enjoy sports that can be practiced with friends and family. This would include such activities as walking, swimming and simple ball games. Since you are super sensitive you found a natural way of protection by gaining weight. But some blue or turquoise shades might experience the opposite and be underweight, but in general blue shades have weight issues. Don’t fight with these issues, its just your way to protect yourself. </item>
+        <item> </item>
+        <item> </item>
+        <item>Qualities When Unbalanced: cappp</item>
+        <item>Darker colors can means withdrawal of personality, a feeling of misunderstanding, not wanting to deal with the world or escaping into dreams and fantasies. Negative felt turquoise can enhance insecurity and unhappiness. You feel introverted and nothing seems to go right.</item>
+        <item> </item>
+        <item>Sometimes it could be an indication of depression or a feeling of entrapment. You might just feel misunderstood, not wanting to deal with the world. Don’t forget most people are not as sensitive as you and might just not understand! Try to find a way to communicate better, maybe in a different form and try to keep emotions out of it. Act like you talk to a mirror or in a play. This thought might help to keep calm and in-power.</item>
+        <item> </item>
+        <item>You need some time to make a decision. You probably also have problems setting boundaries and saying “NO”. You need to overcome your fears and become more expressive since you have a tendency to hold feelings within. Stuck energy can make you sick so you need to know how to release it. You have high expectations and usually no one can fulfill them so you need to learn to depend on yourselves.</item>
+        <item> </item>
+        <item> </item>
+        <item>How to achieve AuraFit Balance: cappp</item>
+        <item>Balance yourself with YELLOW-ORANGE colors, e.g. write a book, do yoga, eat yellow food or try some lemon scent. Learn to express your powerful energy in a creative way, go back to nature or try wearing yellow-orange crystals and yellow- orange cloths for a while.</item>
+        <item> </item>
+        <item>If you ask a question in a peaceful state of mind you will hear and  immediately sense the answer inside. The challenge for you is not only to hear and trust your inner voice, but also to act on it and live your inner knowledge in the real world. </item>
+        <item>    </item>
+        <item>    </item>
+        <item>Affirmation: capppbl</item>
+        <item>\“It is now safe for me to express my feelings.\” capppbl</item>
+    </string-array>
+</resources>

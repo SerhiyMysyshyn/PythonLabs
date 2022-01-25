@@ -1,0 +1,18 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selected"
+    android:oneshot="false">
+    <item android:drawable="@drawable/red"
+        android:duration="50" />
+    <item android:drawable="@drawable/orange"
+        android:duration="50" />
+    <item android:drawable="@drawable/yellow"
+        android:duration="50" />
+    <item android:drawable="@drawable/blue_light"
+        android:duration="50" />
+    <item android:drawable="@drawable/blue_dark"
+        android:duration="50" />
+    <item android:drawable="@drawable/purple"
+        android:duration="50" />
+    <item android:drawable="@drawable/green"
+        android:duration="50" />
+ </animation-list>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <!--<color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>-->
+
+    <color name="purple_500">#7B1FA2</color>
+    <color name="purple_700">#7B1FA2</color>
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+
+    <color name="primary">#9C27B0</color>
+    <color name="primary_dark">#7B1FA2</color>
+    <color name="primary_light">#E1BEE7</color>
+    <color name="accent">#FF9800</color>
+    <color name="accent_transparent">#CEFFBB00</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#5C5C5C</color>
+    <color name="gray_transparent">#335C5C5C</color>
+    <color name="green">#5CAB00</color>
+    <color name="green_transparent">#335CAB00</color>
+    <color name="red">#D80154</color>
+    <color name="red_transparent">#33D80154</color>
+    <color name="button_transparent">#22000000</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="background_color">#2f2f2f</color>
+    <color name="background_button_compatibility">#70c4ff</color>
+</resources>
